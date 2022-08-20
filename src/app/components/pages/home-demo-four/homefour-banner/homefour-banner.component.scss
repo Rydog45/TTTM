@@ -1,0 +1,187 @@
+.main-banner-area {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: {
+        top: 200px;
+        bottom: 100px;
+    };
+}
+.main-banner-content {
+    .podcast-image {
+        margin-bottom: 35px;
+    }
+    p {
+        color: var(--white-color);
+        max-width: 650px;
+        font-size: 18px;
+    }
+    .banner-info-list-with-btn {
+        padding-left: 0;
+        list-style-type: none;
+        margin: {
+            top: 30px;
+            bottom: 0;
+        };
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 25px;
+
+            .color-text {
+                background: var(--main-gradient-color);
+	            -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                font-weight: bold;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .list {
+            position: relative;
+            padding-left: 22px;
+            color: var(--white-color);
+
+            i {
+                left: 0;
+                top: 50%;
+                position: absolute;
+                transform: translateY(-50%);
+            }
+            a {
+                &::after {
+                    left: 0;
+                    width: 0;
+                    bottom: 0;
+                    content: "";
+                    height: 2px;
+                    position: absolute;
+                    border-radius: 50px;
+                    transition: all ease 0.5s;
+                    background: var(--main-gradient-color);
+                }
+                &:hover {
+                    color: var(--white-color);
+
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+.main-banner-image {
+    img {
+        border-radius: 50%;
+        padding-left: 25px;
+    }
+}
+.banner-bg-line-shape {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 65%;
+    position: absolute;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .main-banner-area {
+        padding: {
+            top: 130px;
+            bottom: 60px;
+        };
+    }
+    .main-banner-content {
+        .podcast-image {
+            margin-bottom: 25px;
+        }
+        p {
+            max-width: 100%;
+            font-size: 15px;
+        }
+        .banner-info-list-with-btn {
+            margin-top: 20px;
+            display: block !important;
+
+            li {
+                font-size: 15px;
+                display: block;
+                margin: {
+                    right: 0;
+                    bottom: 15px;
+                };
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                .color-text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .main-banner-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .banner-bg-line-shape {
+        display: none;
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .main-banner-area {
+        padding: {
+            top: 160px;
+            bottom: 80px;
+        };
+    }
+    .main-banner-content {
+        p {
+            max-width: 100%;
+        }
+    }
+    .main-banner-image {
+        margin-top: 25px;
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .main-banner-content {
+        text-align: center;
+
+        p {
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        .banner-info-list-with-btn {
+            justify-content: center !important;
+        }
+    }
+    .main-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}
