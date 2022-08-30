@@ -27,7 +27,9 @@ export class AppComponent {
     }
 
     recallJsFuntions() {
-        this.routerSubscription = this.router.events
+      console.log(window.location);
+
+      this.routerSubscription = this.router.events
         .pipe(filter(event => event instanceof NavigationEnd || event instanceof NavigationCancel))
         .subscribe(event => {
             this.location = this.router.url;

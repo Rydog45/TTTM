@@ -3,7 +3,8 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background-color: #221D48;
+    background-color: #000;
+    //background-color: #221D48;
     position: absolute !important;
     padding: {
         top: 10px;
@@ -118,7 +119,7 @@
 
                     li {
                         margin: 0;
-                        
+
                         a {
                             -webkit-text-fill-color: transparent;
                             background: var(--black-color);
@@ -175,19 +176,19 @@
                             left: -100%;
                             margin-top: 15px;
                             visibility: hidden;
-                            
+
                             li {
                                 .dropdown-menu {
                                     opacity: 0;
                                     left: 100%;
                                     visibility: hidden;
-        
+
                                     li {
                                         .dropdown-menu {
                                             opacity: 0;
                                             left: -100%;
                                             visibility: hidden;
-                
+
                                             li {
                                                 .dropdown-menu {
                                                     opacity: 0;
@@ -241,10 +242,14 @@
         }
         .others-options {
             margin-left: 35px;
-            
+
             .option-item {
                 margin-right: 30px;
-                
+                .default-btn {
+                    background: linear-gradient(96.62deg, #6404FF 0%, #25FFD8 102.2%);
+                    border-radius: 6px;
+                }
+
                 .search-box {
                     color: var(--white-color);
                     display: inline-block;
@@ -301,7 +306,8 @@
         width: 100%;
         z-index: 999;
         position: fixed !important;
-        background-color: #221D48 !important;
+        background-color: #000 !important;
+        //background-color: #221D48 !important;
         box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
         animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     }
@@ -399,7 +405,7 @@
 
         form {
             position: relative;
-    
+
             .input-search {
                 border: 0;
                 outline: 0;
@@ -410,7 +416,7 @@
                 padding: 2px 70px 0 25px;
                 color: var(--black-color);
                 border: 1px solid #e1e1e1;
-                
+
                 &::placeholder {
                     transition: var(--transition);
                     color: var(--black-color);
@@ -435,7 +441,7 @@
                 color: var(--white-color);
                 transition: var(--transition);
                 background-color: var(--main-color);
-    
+
                 &:hover {
                     background-color: var(--black-color);
                     color: var(--white-color);
@@ -447,7 +453,7 @@
         &.search-overlay {
             opacity: 1;
             visibility: visible;
-    
+
             .search-overlay-layer {
                 transform: translateX(0);
             }
@@ -917,7 +923,7 @@
                     }
                     .dropdown-toggle {
                         padding-right: 13px;
-    
+
                         &::after {
                             font-size: 15px;
                         }
@@ -929,10 +935,10 @@
             }
             .others-options {
                 margin-left: 25px;
-                
+
                 .option-item {
                     margin-right: 25px;
-                    
+
                     .search-box {
                         font-size: 20px;
                     }
