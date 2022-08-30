@@ -12,7 +12,7 @@
                 .episode-list {
                     li {
                         color: #8C88AC;
-        
+
                         span {
                             &::after {
                                 background: #8C88AC;
@@ -53,9 +53,10 @@
             }
         }
         .episode-video-view {
-            right: 25px;
-            bottom: 25px;
+            left: 50%;
+            top: 50%;
             position: absolute;
+          transform: translate(-50%, -50%);
 
             a {
                 i {

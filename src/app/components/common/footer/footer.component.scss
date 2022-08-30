@@ -15,7 +15,7 @@
         margin-bottom: 25px;
         text-align: end;
         font: {
-            size: 20px;
+            size: 26px;
             weight: bold;
         };
     }
@@ -32,6 +32,9 @@
 
                 &:hover {
                     color: var(--main-color);
+                }
+                &.active {
+                  color: var(--main-color);
                 }
             }
             &:last-child {
@@ -127,7 +130,7 @@
                     }
                 }
             }
-        }        
+        }
     }
     .copyright-area {
         margin-top: 35px;
@@ -148,7 +151,7 @@
     .single-footer-widget {
         &.pl-10 {
             padding-left: 4rem;
-        }     
+        }
     }
     .copyright-area {
         margin-top: 55px;

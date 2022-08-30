@@ -1,21 +1,27 @@
-<div 
-    class="newsletter-area"
-    [ngClass]="{'bg-0c003d' : router.url === '/index-2'}"
->
+<div
+    class="newsletter-area">
+<!--    [ngClass]="{'bg-0c003d' : router.url === '/index-2'}"-->
+<!--&gt;-->
     <div class="container">
         <div class="newsletter-inner-box">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12">
-                    <div class="newsletter-content">
-                        <h3>Sign Up For Our Newsletter. It’s Free!</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id sit in aliquet.</p>
-                    </div>
+                <div class="col-lg-5 col-md-12">
+<!--                    <div class="newsletter-content">-->
+<!--                        <h3>Sign Up For Our Newsletter. It’s Free!</h3>-->
+<!--                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id sit in aliquet.</p>-->
+<!--                    </div>-->
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-7 col-md-12">
+                  <div class="subscribe-content-detail d-flex gap-3 flex-column flex-wrap justify-content-around">
+                    <div class="heading">
+                      <h1>Subscribe to ‘ The Tea ’ Newsletter</h1>
+                    </div>
                     <form class="newsletter-form">
-                        <input type="email" class="input-newsletter" placeholder="Your Email Address" name="EMAIL" required autocomplete="off">
-                        <button type="submit">Subscribe</button>
+                      <input type="email" class="input-newsletter" placeholder="Your Email Address" name="EMAIL" required autocomplete="off">
+                      <button type="submit">Subscribe</button>
                     </form>
+                    <p>A weekly newsletter serving piping hot bite-sized tech news curated for the culture. </p>
+                  </div>
                 </div>
             </div>
         </div>

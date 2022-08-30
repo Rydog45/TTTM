@@ -1,0 +1,15 @@
+.featured-section {
+  .featured-title {
+    top: -3rem !important;
+    left: -3rem !important;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 0;
+  }
+  .list-number {
+    color: var(--optional-color);
+    font-size: 2rem;
+  }
+}
