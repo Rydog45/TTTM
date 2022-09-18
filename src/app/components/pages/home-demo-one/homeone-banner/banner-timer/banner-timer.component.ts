@@ -78,7 +78,8 @@ export class BannerTimerComponent implements OnInit {
     console.log("Hour less than 12", countDownDate);
     if (day === "Saturday") {
       if (countDownDate.getHours() < 12) {
-        countDownDate.setHours(0)
+        let hoursDiff = 12 - countDownDate.getHours();
+        countDownDate.setHours(hoursDiff + countDownDate.getHours());
         countDownDate.setMinutes(0);
         countDownDate.setSeconds(0);
       } else {
