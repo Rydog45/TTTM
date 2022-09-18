@@ -1,0 +1,19 @@
+.timer {
+  font-size: 7rem;
+  line-height: 8rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  }
+}
+

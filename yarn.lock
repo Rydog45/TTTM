@@ -4543,6 +4543,13 @@ ngx-audio-player@^11.0.4:
   dependencies:
     tslib "^2.0.0"
 
+ngx-countdown@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-countdown/-/ngx-countdown-14.0.0.tgz#f1b8bca696d70f678cc1788124a5f17a44d86202"
+  integrity sha512-XZyRQM7lT174phm15WiqnenYShZ9+RkaSYNsFvM5GREPgAnWE9Yl7tjC6aH4tijdnYPsbAqSIyqhzg/TERiKjQ==
+  dependencies:
+    tslib "^2.3.0"
+
 ngx-owl-carousel-o@^7.0.2:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/ngx-owl-carousel-o/-/ngx-owl-carousel-o-7.0.4.tgz#779d4170011e3d47c1f6ad3773d2a872ef3451e1"

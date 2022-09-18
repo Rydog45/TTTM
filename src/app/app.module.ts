@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeDemoOneComponent } from './components/pages/home-demo-one/home-demo-one.component';
 import { HomeoneBannerComponent } from './components/pages/home-demo-one/homeone-banner/homeone-banner.component';
+import { BannerTimerComponent } from './components/pages/home-demo-one/homeone-banner/banner-timer/banner-timer.component';
 import { HomeoneFeaturedComponent } from './components/pages/home-demo-one/homeone-featured/homeone-featured.component';
 import { HomeDemoTwoComponent } from './components/pages/home-demo-two/home-demo-two.component';
 import { HometwoBannerComponent } from './components/pages/home-demo-two/hometwo-banner/hometwo-banner.component';
@@ -64,6 +65,7 @@ import { SingleVideoEpisodePageComponent } from './components/pages/single-video
 		HomeDemoOneComponent,
 		HomeoneBannerComponent,
     HomeoneFeaturedComponent,
+    BannerTimerComponent,
 		HomeDemoTwoComponent,
 		HometwoBannerComponent,
 		HomeDemoThreeComponent,

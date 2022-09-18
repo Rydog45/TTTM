@@ -25,6 +25,7 @@
     "ng2-sticky-nav": "^10.0.0",
     "ngx-accordion": "^0.0.17",
     "ngx-audio-player": "^11.0.4",
+    "ngx-countdown": "^14.0.0",
     "ngx-owl-carousel-o": "^7.0.2",
     "ngx-scrolltop": "^4.1.2",
     "rxjs": "~7.4.0",
