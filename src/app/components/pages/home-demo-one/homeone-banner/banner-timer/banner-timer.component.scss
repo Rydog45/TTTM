@@ -22,7 +22,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .time-section {
-  width: 570px;
+  width: 500px;
   height: 282px;
   border-radius: 25px;
   background-image: linear-gradient(to right, #c533e3, #65a9fd);
@@ -37,7 +37,7 @@
     color: #fff;
     font-family: 'Bebas Neue', cursive;
     .semi-colon {
-      font-size: 8em;height: 110px;
+      font-size: 5em;height: 110px;
       line-height: 100px;
     }
     .days {
@@ -45,7 +45,7 @@
       flex-direction: column;
       align-items: center;
       .count {
-        font-size: 6em;height: 110px;
+        font-size: 5em;height: 110px;
         line-height: 130px;
       }
       .subtitle {
@@ -56,7 +56,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      .count {font-size: 6em;height: 110px;
+      .count {font-size: 5em;height: 110px;
         line-height: 130px;
       }
       .subtitle {
@@ -67,7 +67,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      .count {font-size: 6em;height: 110px;
+      .count {font-size: 5em;height: 110px;
         line-height: 130px;
       }
       .subtitle {
@@ -78,7 +78,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      .count {font-size: 6em;height: 110px;
+      .count {font-size: 5em;height: 110px;
         line-height: 130px;
       }
       .subtitle {
@@ -89,6 +89,6 @@
 
   h2 {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 26px;
   }
 }
