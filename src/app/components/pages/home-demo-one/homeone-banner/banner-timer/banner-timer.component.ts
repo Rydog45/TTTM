@@ -14,13 +14,10 @@ export class BannerTimerComponent implements OnInit {
   minutes: string = "00";
   seconds: string = "00";
   title: string = "TTTM LIVE IN:";
-  x = null;
+  x = 0;
 
-  startTimer(startCountDownDate: any) {
-    //@ts-ignore
-    this.x = setInterval(this.timerFunc(startCountDownDate), 1000)
-  }
   timerFunc(startCountDownDate: any) {
+      console.log(startCountDownDate, "Start");
     let now = new Date().getTime();
     let distance = startCountDownDate.getTime() - now;
     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -31,7 +28,6 @@ export class BannerTimerComponent implements OnInit {
   }
   setTimer(countdownDate: any, days: any, hours: any, minutes: any, seconds: any, distance: any) {
     if (distance < 0) {
-      //@ts-ignore
       clearInterval(this.x)
       this.days = "0"+days;
       this.hours = "0"+hours;
@@ -41,9 +37,11 @@ export class BannerTimerComponent implements OnInit {
       countdownDate.setHours(0)
       countdownDate.setMinutes(0)
       countdownDate.setSeconds(0)
-      //@ts-ignore
-      this.x = setInterval(this.timerFunc(startCountDownDate), 3600);
+      this.x = setInterval(() => {
+          this.timerFunc(countdownDate)
+      }, 3600);
     } else {
+    console.log("Seconds");
       if (days < 10) {
         this.days = "0"+days;
       } else {
@@ -73,7 +71,7 @@ export class BannerTimerComponent implements OnInit {
   }
   ngOnInit(): void {
     let countDownDate = new Date()
-    countDownDate.setHours(0);
+    countDownDate.setHours(12);
     countDownDate.setMinutes(0);
     countDownDate.setSeconds(0);
     let day = this.getDayName(countDownDate, "en");
@@ -99,10 +97,15 @@ export class BannerTimerComponent implements OnInit {
       countDownDate.setDate(countDownDate.getDate() + 2);
     } else if (day === "Friday") {
       countDownDate.setDate(countDownDate.getDate() + 1);
-    } else {
-      countDownDate === countDownDate;
     }
-    this.startTimer(countDownDate)
+    this.timerFunc(countDownDate);
+    this.x = setInterval(() => {
+      this.timerFunc(countDownDate)
+    }, 1000)
   }
-
+  ngOnDestroy() {
+    if (this.x) {
+        clearInterval(this.x);
+    }
+  }
 }
