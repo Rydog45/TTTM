@@ -13,6 +13,7 @@ export class BannerTimerComponent implements OnInit {
   hours: string = "00";
   minutes: string = "00";
   seconds: string = "00";
+  title: string = "TTTM LIVE IN:";
   x = null;
 
   startTimer(startCountDownDate: any) {
@@ -36,6 +37,7 @@ export class BannerTimerComponent implements OnInit {
       this.hours = "0"+hours;
       this.minutes = "0"+minutes;
       this.seconds = "0"+seconds;
+      this.title = "BROADCASTING LIVE NOW!";
       countdownDate.setHours(0)
       countdownDate.setMinutes(0)
       countdownDate.setSeconds(0)
