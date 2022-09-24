@@ -1,15 +1,41 @@
 .featured-section {
   .featured-title {
-    top: -3rem !important;
-    left: -3rem !important;
+    top: -3rem;
+    left: -3rem;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
     font-size: 3rem;
     line-height: 3rem;
     margin: 0;
+    z-index: 1;
   }
   .list-number {
     color: var(--optional-color);
     font-size: 2rem;
   }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+  .featured-content {
+    flex-direction: column !important;
+    img {
+      width: 100% !important;
+    }
+    .episodes-list {
+      flex-direction: column;
+      .list-number {
+        &:last-child {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .featured-title {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    left: -1rem !important;
+  }
+
 }
