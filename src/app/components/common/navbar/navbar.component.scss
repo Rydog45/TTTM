@@ -23,6 +23,9 @@
             margin-bottom: 0;
             list-style-type: none;
         }
+      .collapse-menu  {
+        display: none;
+      }
         .navbar-nav {
             margin-left: auto;
 
@@ -480,6 +483,11 @@
             };
         }
         .navbar {
+            .navbar-brand {
+                img {
+                    width: 140px !important;
+                }
+            }
             .navbar-nav {
                 display: none;
                 max-height: 60vh;
@@ -609,9 +617,65 @@
             }
             .others-options {
                 margin: {
-                    top: 20px;
-                    left: 18px;
+                    top: 5px;
+                    left: 0;
                 };
+            }
+            .collapse-menu {
+                display: block;
+                padding: {
+                    top: 10px;
+                    bottom: 10px;
+                };
+                .nav-item {
+                    padding: {
+                        top: 5px;
+                        bottom: 5px;
+                    };
+                    .nav-link {
+                      position: relative;
+                      color: var(--white-color);
+                      transition: var(--transition);
+                      font: {
+                        size: var(--font-size);
+                        weight: 600;
+                      };
+                      width: max-content;
+                      padding: {
+                        left: 0;
+                        right: 0;
+                        top: 5px;
+                        bottom: 5px;
+                      };
+                      &::before {
+                        right: 0;
+                        width: 0;
+                        height: 1px;
+                        content: "";
+                        bottom: 5px;
+                        position: absolute;
+                        border-radius: 50px;
+                        transition: all ease 0.5s;
+                        background: var(--main-gradient-color);
+                      }
+                      &:hover, &.active {
+                        background: var(--main-gradient-color);
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+
+                        &::before {
+                          width: 100%;
+                          right: auto;
+                          left: 0;
+                        }
+                        &::after {
+                          background: var(--main-gradient-color);
+                          -webkit-text-fill-color: transparent;
+                          -webkit-background-clip: text;
+                        }
+                      }
+                    }
+                }
             }
         }
         &.bg-color-transparent {

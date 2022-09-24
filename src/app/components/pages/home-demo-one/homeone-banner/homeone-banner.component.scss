@@ -117,8 +117,13 @@
 @media only screen and (max-width: 767px) {
 
     .main-banner-area {
-        padding-top: 130px;
+        padding-top: 90px;
+        min-height: calc(100vh + 200px);
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
 
+        &:before {
+            display: none;
+        }
         .container-fluid {
             padding: {
                 right: var(--bs-gutter-x,.75rem);
@@ -129,6 +134,14 @@
     .main-banner-content {
         margin-top: 0;
 
+        .banner-timer-section {
+            flex-direction: column !important;
+            .listen-now {
+                img {
+                    width: 40px !important;
+                }
+            }
+        }
         .podcast-image {
             margin-bottom: 25px;
         }
