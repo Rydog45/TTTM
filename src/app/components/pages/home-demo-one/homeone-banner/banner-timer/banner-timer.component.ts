@@ -34,11 +34,11 @@ export class BannerTimerComponent implements OnInit {
       this.minutes = "0"+minutes;
       this.seconds = "0"+seconds;
       this.title = "Broadcasting Live Now!";
-      countdownDate.setHours(0)
-      countdownDate.setMinutes(0)
-      countdownDate.setSeconds(0)
+      // countdownDate.setHours(0)
+      // countdownDate.setMinutes(0)
+      // countdownDate.setSeconds(0)
       this.x = setInterval(() => {
-          this.timerFunc(countdownDate)
+          this.ngOnInit()
       }, 3600);
     } else {
     console.log("Seconds");
@@ -71,15 +71,16 @@ export class BannerTimerComponent implements OnInit {
   }
   ngOnInit(): void {
     let countDownDate = new Date()
-    countDownDate.setHours(12);
+    countDownDate.setHours(0);
     countDownDate.setMinutes(0);
     countDownDate.setSeconds(0);
     let day = this.getDayName(countDownDate, "en");
-    console.log("Hour less than 12", countDownDate);
+    console.log("Hour less than 12", countDownDate.getHours());
     if (day === "Saturday") {
       if (countDownDate.getHours() < 12) {
-        let hoursDiff = 12 - countDownDate.getHours();
-        countDownDate.setHours(hoursDiff + countDownDate.getHours());
+        console.log("Less than 12");
+        // let hoursDiff = 24 - 12;
+        countDownDate.setHours(24);
         countDownDate.setMinutes(0);
         countDownDate.setSeconds(0);
       } else {
