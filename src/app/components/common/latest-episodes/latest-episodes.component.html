@@ -8,15 +8,15 @@
             <h2 class="heading-title">Latest Episodes</h2>
 <!--            <a routerLink="/episode-list">Browse All Episode <i class="ri-arrow-right-s-line"></i></a>-->
         </div>
-        <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="row">
+            <div *ngFor="let ep of episodes; index as i; first as isFirst" class="col-xl-3 col-lg-4 col-md-6">
                 <div class="episode-single-card">
                     <div class="episode-image">
-                        <a routerLink="/single-episode">
+                        <a [routerLink]="['/single-episode']" [state]="{episode: ep}">
                             <img src="assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png" alt="image">
                         </a>
                         <div class="episode-video-view">
-                            <a routerLink="/single-episode" class="popup-youtube">
+                            <a  [routerLink]="['/single-episode']" [state]="{episode: ep}" class="popup-youtube">
                                 <i class="ri-play-mini-fill"></i>
                             </a>
                         </div>
@@ -24,83 +24,23 @@
                     <div class="episode-content">
                         <ul class="episode-list d-flex justify-content-between">
                             <li>
-                                Sat. August 6, 2022
+                              {{ep.date}}
                             </li>
-                            <li>Ep. 04</li>
+                            <li>Ep. {{ep.number}}</li>
                         </ul>
                         <h3>
-                            <a routerLink="/single-episode">
-                              Nicole “The Pole” Williams
-                              Owner of Allure Dance &
-                              Fitness Studio
+                            <a [routerLink]="['/single-episode']" [state]="{episode: ep}">
+                              {{ep.title}}
                             </a>
                         </h3>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="episode-single-card">
-                    <div class="episode-image">
-                        <a routerLink="/single-episode">
-                            <img src="assets/images/v2/Talk_Tech_to_Me_NajahRoberts_episode_2ndart.png" alt="image">
-                        </a>
-                        <div class="episode-video-view">
-                            <a routerLink="/single-episode" class="popup-youtube">
-                                <i class="ri-play-mini-fill"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="episode-content">
-                        <ul class="episode-list d-flex justify-content-between">
-                            <li>
-                                Sat. July 30, 2022
-                            </li>
-                            <li>Ep. 03</li>
-                        </ul>
-                        <h3>
-                            <a routerLink="/single-episode">
-                              Najah Roberts
-                              Crypto Educator, Tech
-                              Founder, Radio Show Host
-                            </a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="episode-single-card">
-                    <div class="episode-image">
-                        <a routerLink="/single-episode">
-                            <img src="assets/images/v2/Talk_Tech_to_Me_CASSIExJEN_LASHLEY.png" alt="image">
-                        </a>
-                        <div class="episode-video-view">
-                            <a routerLink="/single-episode" class="popup-youtube">
-                                <i class="ri-play-mini-fill"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="episode-content">
-                        <ul class="episode-list d-flex justify-content-between">
-                            <li>
-                              Sat. July 23, 2022
-                            </li>
-                            <li>Ep. 02</li>
-                        </ul>
-                        <h3>
-                            <a routerLink="/single-episode">
-                              JENNIFER LASHLEY
-                              South LA Robotics,
-                              Executive Director
-                            </a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
+<!--            <div class="col-xl-3 col-lg-4 col-md-6">-->
 <!--                <div class="episode-single-card">-->
 <!--                    <div class="episode-image">-->
 <!--                        <a routerLink="/single-episode">-->
-<!--                            <img src="assets/images/episode/episode-4.jpg" alt="image">-->
+<!--                            <img src="assets/images/v2/Talk_Tech_to_Me_NajahRoberts_episode_2ndart.png" alt="image">-->
 <!--                        </a>-->
 <!--                        <div class="episode-video-view">-->
 <!--                            <a routerLink="/single-episode" class="popup-youtube">-->
@@ -111,20 +51,78 @@
 <!--                    <div class="episode-content">-->
 <!--                        <ul class="episode-list d-flex justify-content-between">-->
 <!--                            <li>-->
-<!--                                <span>-->
-<!--                                    15th Dec, 2021-->
-<!--                                </span>-->
+<!--                                Sat. July 30, 2022-->
 <!--                            </li>-->
-<!--                            <li>Episodes: 18</li>-->
+<!--                            <li>Ep. 03</li>-->
 <!--                        </ul>-->
 <!--                        <h3>-->
 <!--                            <a routerLink="/single-episode">-->
-<!--                                How to go from Start-Up to Scale-Up-->
+<!--                              Najah Roberts-->
+<!--                              Crypto Educator, Tech-->
+<!--                              Founder, Radio Show Host-->
 <!--                            </a>-->
 <!--                        </h3>-->
 <!--                    </div>-->
 <!--                </div>-->
-            </div>
+<!--            </div>-->
+<!--            <div class="col-xl-3 col-lg-4 col-md-6">-->
+<!--                <div class="episode-single-card">-->
+<!--                    <div class="episode-image">-->
+<!--                        <a routerLink="/single-episode">-->
+<!--                            <img src="assets/images/v2/Talk_Tech_to_Me_CASSIExJEN_LASHLEY.png" alt="image">-->
+<!--                        </a>-->
+<!--                        <div class="episode-video-view">-->
+<!--                            <a routerLink="/single-episode" class="popup-youtube">-->
+<!--                                <i class="ri-play-mini-fill"></i>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="episode-content">-->
+<!--                        <ul class="episode-list d-flex justify-content-between">-->
+<!--                            <li>-->
+<!--                              Sat. July 23, 2022-->
+<!--                            </li>-->
+<!--                            <li>Ep. 02</li>-->
+<!--                        </ul>-->
+<!--                        <h3>-->
+<!--                            <a routerLink="/single-episode">-->
+<!--                              JENNIFER LASHLEY-->
+<!--                              South LA Robotics,-->
+<!--                              Executive Director-->
+<!--                            </a>-->
+<!--                        </h3>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-xl-3 col-lg-4 col-md-6">-->
+<!--&lt;!&ndash;                <div class="episode-single-card">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="episode-image">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <a routerLink="/single-episode">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <img src="assets/images/episode/episode-4.jpg" alt="image">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="episode-video-view">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a routerLink="/single-episode" class="popup-youtube">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <i class="ri-play-mini-fill"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="episode-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <ul class="episode-list d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    15th Dec, 2021&ndash;&gt;-->
+<!--&lt;!&ndash;                                </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li>Episodes: 18</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a routerLink="/single-episode">&ndash;&gt;-->
+<!--&lt;!&ndash;                                How to go from Start-Up to Scale-Up&ndash;&gt;-->
+<!--&lt;!&ndash;                            </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--            </div>-->
         </div>
     </div>
 </div>
