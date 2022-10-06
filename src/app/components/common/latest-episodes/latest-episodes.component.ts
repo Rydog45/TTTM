@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { episodesList } from "../../../../utils/episodes";
 
 @Component({
     selector: 'app-latest-episodes',
@@ -10,9 +11,9 @@ export class LatestEpisodesComponent implements OnInit {
 
     constructor(
         public router: Router
-    ) { }
-
-    ngOnInit(): void {
+    ) {}
+  episodes = episodesList;
+  ngOnInit(): void {
     }
 
 }
