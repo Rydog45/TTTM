@@ -14,54 +14,7 @@ export class SingleEpisodePageComponent implements OnInit {
       this.episode = router.getCurrentNavigation().extras.state.episode;
     }
     episode;
-    msaapAutoplay = true;
-    msaapDisplayTitle = true;
-    msaapDisplayPlayList = true;
-    msaapPageSizeOptions = [2,4,6];
-    msaapDisplayVolumeControls = true;
-    msaapDisplayRepeatControls = true;
-    msaapDisplayArtist = true;
-    msaapDisplayDuration = false;
-    msaapDisablePositionSlider = true;
-  msaapPlaylist = [];
-    // Material Style Advance Audio Player Playlist
-    // msaapPlaylist: Track[] = [
-        // {
-        //     title: 'Finding Moments Of Joy In A Challenging Year',
-        //     link: 'assets/audio/song.mp3',
-        //     artist: 'Episode 01'
-        // }
-        // {
-        //     title: 'How to Effectively Incentivize Team Members',
-        //     link: 'assets/audio/song2.mp3',
-        //     artist: 'Episode 02'
-        // },
-        // {
-        //     title: 'How to go from Start-Up to Scale-Up',
-        //     link: 'assets/audio/song.mp3',
-        //     artist: 'Episode 03'
-        // },
-        // {
-        //     title: `Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies`,
-        //     link: 'assets/audio/song2.mp3',
-        //     artist: 'Episode 04'
-        // },
-        // {
-        //     title: 'Ask Unladylike: Late Bloomer with Forever35',
-        //     link: 'assets/audio/song.mp3',
-        //     artist: 'Episode 05'
-        // }
-    // ];
-
-    // @ts-ignore
-  ngOnInit(): void {
-      //@ts-ignore
-      // console.log(this.episode, "Episode")
-    if (this.episode) {
-      this.msaapPlaylist = [
-        //@ts-ignore
-        this.episode
-      ]
+    autoplay = true;
+    ngOnInit(): void {
     }
-  }
 }

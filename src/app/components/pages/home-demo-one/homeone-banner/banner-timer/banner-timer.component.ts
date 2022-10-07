@@ -84,19 +84,21 @@ export class BannerTimerComponent implements OnInit {
         countDownDate.setMinutes(0);
         countDownDate.setSeconds(0);
       } else {
-        countDownDate.setDate(countDownDate.getDate() + 7);
+        countDownDate.setDate(countDownDate.getDate() + 8);
       }
     } else if (day === "Sunday") {
-      countDownDate.setDate(countDownDate.getDate() + 6);
+      countDownDate.setDate(countDownDate.getDate() + 7);
     } else if (day === "Monday") {
-      countDownDate.setDate(countDownDate.getDate() + 5);
+      countDownDate.setDate(countDownDate.getDate() + 6);
     } else if (day === "Tuesday") {
-      countDownDate.setDate(countDownDate.getDate() + 4);
+      countDownDate.setDate(countDownDate.getDate() + 5);
     } else if (day === "Wednesday") {
-      countDownDate.setDate(countDownDate.getDate() + 3);
+      countDownDate.setDate(countDownDate.getDate() + 4);
     } else if (day === "Thursday") {
-      countDownDate.setDate(countDownDate.getDate() + 2);
+      countDownDate.setDate(countDownDate.getDate() + 3);
     } else if (day === "Friday") {
+      countDownDate.setDate(countDownDate.getDate() + 2);
+    } else {
       countDownDate.setDate(countDownDate.getDate() + 1);
     }
     this.timerFunc(countDownDate);

@@ -2,7 +2,7 @@
 <div class="page-banner-area bg-3 ptb-100">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Single Podcast</h2>
+            <h2>{{episode.artist}}</h2>
             <ul>
                 <li>
                     <a routerLink="/">
@@ -28,7 +28,10 @@
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-12">
-                            <ngx-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="msaapAutoplay" muted="muted" [displayPlaylist]="msaapDisplayPlayList" [pageSizeOptions]="msaapPageSizeOptions" [displayArtist]="msaapDisplayArtist" [displayDuration]="msaapDisplayDuration" [expanded]="true" [displayVolumeControls]="msaapDisplayVolumeControls" [displayRepeatControls]="msaapDisplayRepeatControls" [disablePositionSlider]="msaapDisablePositionSlider"></ngx-audio-player>
+                          <audio controls [autoplay]="autoplay" class="w-100">
+                            <source [src]="episode.link" type="audio/mp3">
+                          </audio>
+                          <h4 class="mt-3">{{episode.title}}</h4>
                         </div>
                     </div>
                 </div>
@@ -37,8 +40,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-12">
                 <div class="single-podcast-content">
-                    <span class="date">Episode: 01</span>
-                    <h3>About This Podcast</h3>
+                    <span class="date">Episode: {{episode.number}}</span>
+                    <h3>{{episode.title}}</h3>
                     <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur <strong>adipisicing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <a routerLink="/">commodo</a> consequat. Duis aute irure dolor in reprehenderit in sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
                     <ol>
