@@ -71,7 +71,7 @@ export class BannerTimerComponent implements OnInit {
   }
   ngOnInit(): void {
     let countDownDate = new Date()
-    countDownDate.setHours(0);
+    countDownDate.setHours(1);
     countDownDate.setMinutes(0);
     countDownDate.setSeconds(0);
     let day = this.getDayName(countDownDate, "en");
