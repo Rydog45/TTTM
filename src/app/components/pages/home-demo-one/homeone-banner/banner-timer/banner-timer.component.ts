@@ -37,6 +37,7 @@ export class BannerTimerComponent implements OnInit {
       // countdownDate.setHours(0)
       // countdownDate.setMinutes(0)
       // countdownDate.setSeconds(0)
+      //@ts-ignore
       this.x = setInterval(() => {
           this.ngOnInit()
       }, 3600);
@@ -71,9 +72,13 @@ export class BannerTimerComponent implements OnInit {
   }
   ngOnInit(): void {
     let countDownDate = new Date()
-    countDownDate.setHours(1);
+    countDownDate.setHours(0);
     countDownDate.setMinutes(0);
     countDownDate.setSeconds(0);
+    countDownDate = new Date(countDownDate.toLocaleString('en-US', {
+      timeZone: 'America/Los_Angeles',
+    }));
+    countDownDate.setHours(1);
     let day = this.getDayName(countDownDate, "en");
     console.log("Hour less than 12", countDownDate.getHours());
     if (day === "Saturday") {
@@ -102,6 +107,7 @@ export class BannerTimerComponent implements OnInit {
       countDownDate.setDate(countDownDate.getDate() + 1);
     }
     this.timerFunc(countDownDate);
+    //@ts-ignore
     this.x = setInterval(() => {
       this.timerFunc(countDownDate)
     }, 1000)
