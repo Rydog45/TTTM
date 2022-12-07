@@ -75,10 +75,10 @@ export class BannerTimerComponent implements OnInit {
     countDownDate.setHours(0);
     countDownDate.setMinutes(0);
     countDownDate.setSeconds(0);
-    countDownDate = new Date(countDownDate.toLocaleString('en-US', {
-      timeZone: 'America/Los_Angeles',
-    }));
-    countDownDate.setHours(1);
+    // countDownDate = new Date(countDownDate.toLocaleString('en-US', {
+    //   timeZone: 'America/Los_Angeles',
+    // }));
+    countDownDate.setHours(-7);
     let day = this.getDayName(countDownDate, "en");
     console.log("Hour less than 12", countDownDate.getHours());
     if (day === "Saturday") {
