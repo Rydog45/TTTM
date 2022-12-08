@@ -48,7 +48,7 @@ const routes: Routes = [
     {path: 'season-list', component: SeasonListPageComponent},
     {path: 'single-season', component: SingleSeasonPageComponent},
     {path: 'episode-list', component: EpisodeListPageComponent},
-    {path: 'single-episode', component: SingleEpisodePageComponent},
+    {path: 'episode/:id', component: SingleEpisodePageComponent},
     {path: 'single-video-episode', component: SingleVideoEpisodePageComponent},
     {path: 'blog', component: BlogPageComponent},
     {path: 'blog-details', component: BlogDetailsPageComponent},
