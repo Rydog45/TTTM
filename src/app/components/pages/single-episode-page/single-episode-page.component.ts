@@ -16,6 +16,8 @@ export class SingleEpisodePageComponent implements OnInit {
       if (!this.episode) {
         //@ts-ignore
         this.episode = episodesList.find(o => o.title.split(' ').join('-').toLowerCase() === activeRoute.params.value.id);
+        //@ts-ignore
+        this.router.navigate(["episode/" + activeRoute.params.value.id]);
       }
     }
     episode;
