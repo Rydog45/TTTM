@@ -5,7 +5,8 @@ export const episodesList = [
     date: '01-05-2022',
     subject: 'Test Pilot',
     artist: 'Cassandra Cooper',
-    flyerUrl: 'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
+    flyerUrl:
+      'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
     link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
     description: `
     <p>
@@ -108,14 +109,16 @@ export const episodesList = [
       <a href="https://facebook.com/">Facebook</a>,
       <a href="https://twitter.com/">Twitter</a>
     </p>
-    `
-  },{
+    `,
+  },
+  {
     number: '0.1',
     title: 'Systems and processes for a successful business',
     date: '21-05-2022',
     subject: 'Pilot',
     artist: 'Renee Moncito',
-    flyerUrl: 'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
+    flyerUrl:
+      'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
     link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
     description: `
     <p>
@@ -218,8 +221,9 @@ export const episodesList = [
       <a href="https://facebook.com/">Facebook</a>,
       <a href="https://twitter.com/">Twitter</a>
     </p>
-    `
-  },{
+    `,
+  },
+  {
     number: '1',
     title: 'Black folk in the metaverse',
     date: '16-07-2022',
@@ -230,9 +234,9 @@ export const episodesList = [
     description: `
       <h1>12:03:00 pm - 12:10:35 pm (Segment 1)</h1>
       <p>
-        Show intro: Welcome forward, I am your host Cassie Betts on 
-        KBLA Talk 1580 and you’re listening to 
-        Talk Tech To Me, where Technology is the new sexy. Black 
+        Show intro: Welcome forward, I am your host Cassie Betts on
+        KBLA Talk 1580 and you’re listening to
+        Talk Tech To Me, where Technology is the new sexy. Black
         Geeks are the new superheroes and South Central LA is the new Tech Mecca.
       </p>
       <ul>
@@ -247,8 +251,8 @@ export const episodesList = [
       <ul>
         <li>
           <p>
-            <a href="https://youtu.be/TDDFLxZ_xDA" target="_blank">Chris Breezy Takes His Talents to the Metaverse</a>:  Award-winning R&B and hip hop cultural icon 
-              Chris Brown is ready to play in the metaverse. The “Warm Embrace” singer 
+            <a href="https://youtu.be/TDDFLxZ_xDA" target="_blank">Chris Breezy Takes His Talents to the Metaverse</a>:  Award-winning R&B and hip hop cultural icon
+              Chris Brown is ready to play in the metaverse. The “Warm Embrace” singer
               dropped his first official NFT collection THE BREEZY VERSE in late June.
           </p>
           <ul>
@@ -256,16 +260,16 @@ export const episodesList = [
               <p>The drop features a series of 10,000 3D animated NFTs w/ sounds & visual effects that will live on the Ethereum blockchain</p>
             </li>
             <li>
-              <p>Investors and fans will get access to exclusive utilities including VIP concert tickets, 
-              meet & greets, video calls, personal wardrobe, and 1 of 1 
+              <p>Investors and fans will get access to exclusive utilities including VIP concert tickets,
+              meet & greets, video calls, personal wardrobe, and 1 of 1
               original art on canvas by Chris. Learn more at <a href="https://www.thebreezyverse.com/" target="_blank">thebreezyverse.com</a></p>
             </li>
           </ul>
         </li>
         <li>
           <p>
-            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Move Over Apple and Samsung, Nothing is Here</a>: Nothing, the London-based startup 
-            dubbed  “The most hyped tech company in years,” by 
+            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Move Over Apple and Samsung, Nothing is Here</a>: Nothing, the London-based startup
+            dubbed  “The most hyped tech company in years,” by
             GQ, has a lot to prove with the release of their Nothing Phone (1).
           </p>
           <ul>
@@ -273,12 +277,12 @@ export const episodesList = [
               <p>The mid-range android is said to be the biggest smartphone launch of 2022 and is popular for its unique design and decent price point</p>
             </li>
             <li>
-              <p>Features include a see-through glass back panel with glyph lighting, dual camera, & wireless charging. 
+              <p>Features include a see-through glass back panel with glyph lighting, dual camera, & wireless charging.
                 Available in 3 variants; 8-12GB of RAM + up to 256GB of storage; Price: £399 (~$475)- £449 (~$535)</p>
             </li>
             <li>
               <p>
-                Limited release in the UK this week w/ open sales in Europe, Asia and 40+ countries on 7/21; Not currently 
+                Limited release in the UK this week w/ open sales in Europe, Asia and 40+ countries on 7/21; Not currently
                 available in the US but possibly in the future
               </p>
             </li>
@@ -286,7 +290,7 @@ export const episodesList = [
         </li>
         <li>
           <p>
-            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Sunday, July 17th is World Emoji Day:</a> Emojis have 
+            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Sunday, July 17th is World Emoji Day:</a> Emojis have
             changed the text game forever so it’s only right we celebrate them
           </p>
           <ul>
@@ -432,7 +436,7 @@ export const episodesList = [
         </li>
         <li>
           <p>
-            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. When we come forward, you’ll be 
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. When we come forward, you’ll be
             listening to The Back Story with Mischa Duffy. Backstory of films, songs, books…
           </p>
         </li>
@@ -468,6 +472,931 @@ export const episodesList = [
           <p>To get guests to call in, don’t ask them to call, just say, Welcome Forward, 800-920-1580…</p>
         </li>
       </ul>
-    `
+    `,
+  },
+  {
+    number: '2',
+    title: 'The Robots Are Coming',
+    date: '23-07-2022',
+    subject: 'SoLA Robotics',
+    artist: 'Jen Lashley',
+    flyerUrl: 'assets/images/v2/Talk_Tech_to_Me_CASSIExJEN_LASHLEY_2 copy.jpg',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+        Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <ul>
+        <li>
+          <p>
+            Talk about the Why of this Show…
+          </p>
+          <ul>
+            <li>
+              <p>Diversity in Technology & Multimedia</p>
+            </li>
+            <li>
+              <p>It is to encourage you to get into it. You could be 18, or 48…</p>
+            </li>
+            <li>
+              <p>Bringing Black People into tech & multi-media.</p>
+            </li>
+            <li>
+              <p>Why? We need more Black Creators… Create more. Consume less.</p>
+            </li>
+            <li>
+              <p>Create. Distribute. Profit off our creations. Our narratives. We set the trends.</p>
+            </li>
+            <li>
+              <p>This show is to inspire you to become a creator or a part of a team in this space.</p>
+            </li>
+            <li>
+              <p>Building generational wealth through tech</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1>What’s the Tea in Tech</h1>
+      <ul>
+        <li>
+          <p>
+            <a href="https://afrotech.com/limewire-reunites-with-soulja-boy-to-relaunch-nft-marketplace-after-once-revealing-the-company-played-a-part-in-his-success" target="_blank">LimeWire is Back, But Not How You Think…</a>
+          </p>
+          <ul>
+            <li>
+              <p>The infamous P2P filesharing platform returns to the scene as an open music and entertainment NFT Marketplace</p>
+            </li>
+            <li>
+              <p>LimeWire was popular in the 2000s amongst teens looking to score free music, movies, and games before getting shut down by US Courts for facilitating copyright infringement</p>
+            </li>
+            <li>
+              <p>They have reunited with Soulja Boy who credits the platform with the success of his 2007 breakout single “Crank That (Soulja Boy), for an exclusive NFT drop</p>
+            </li>
+            <li>
+              <p>The company is under new management and has snagged Hip Hop legends Wu-Tang Clan and superstar songstress H.E.R. as advisors</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://afrotech.com/kanye-west-donda-foam-vehicle-steven-smith?item=1" target="_blank">Kanye West Teases DONDA Foam Vehicle and Possible Tesla Collab</a>
+          </p>
+          <ul>
+            <li>
+              <p>Ye takes his innovation to the auto industry with his DONDA Industrial Design Department led by Steven Smith, former executive designer of Yeezy</p>
+            </li>
+            <li>
+              <p>DONDA released an official statement w/ an image of the future car described as the “Donda foam vehicle conceptualized, designed, and manufactured in the U.S.”</p>
+            </li>
+            <li>
+              <p>
+                The West empire is expanding into furniture, vehicles, and more
+              </p>
+            </li>
+            <li>
+              <p>
+                Ye has a close relationship w/ Elon Musk; Rumors swirling online about a potential collaboration
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Snapchat and Steph Curry Level Up This Summer</a>
+          </p>
+          <ul>
+            <li>
+              <p>4X NBA champion Steph Curry teams up with Snapchat for the original series <em>LEVEL UP with Stephen Curry</em></p>
+            </li>
+            <li>
+              <p>The Finals MVP will put his coaching skills to the test as he works with young athletes to help them up their game</p>
+            </li>
+            <li>
+              <p>
+                The 6-part series is the latest Snap Original show to premiere on the social media platform. Episodes are now airing exclusively on Snapchat
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://fortune.com/2022/06/22/gen-z-dismisses-remote-work-sick-of-zoom/#:~:text=For%20the%20youngest%20employees%2C%20working,Scholars%27%202022%20Career%20Interest%20Survey." target="_blank">Gen Z is OVER Working from Home</a>
+          </p>
+          <ul>
+            <li>
+              <p>New survey says that Gen Z is over working from home and prefers to be back in the office</p>
+            </li>
+            <li>
+              <p>According to the National Society of High School Scholars, less than a quarter (23%) of Gen Zers feel remote work is “very” or “extremely” important to them</p>
+            </li>
+            <li>
+              <p>
+                Most have a strong desire for personalized support and fast growth
+              </p>
+            </li>
+            <li>
+              <p>
+                Remote learning during pandemic may have turned them off
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>Soft out with a commercial break: 3 minutes</em>
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>He won’t go to break until she is ready</em>
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward <strong>1 800-920-1580</strong>. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580”.</p>
+        </li>
+        <li>
+          <p>Introduce special guest Jennifer Lashley, Executive Director of South LA Robotics</p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Explain what you do for those who are not in tech?</p>
+        </li>
+        <li>
+          <p>Get into Jen’s background</p>
+        </li>
+        <li>
+          <p>How and why she got into robotics</p>
+        </li>
+        <li>
+          <p>What is robotics? What is a robot? Types of robots? How do they function? How are they used? Are they coming for our jobs?</p>
+          <ul>
+            <li>
+              <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
+            </li>
+            <li>
+              <p><em>News and traffic break - 3 minutes</em></p>
+            </li>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <ul>
+        <li>
+          <p>Discuss career paths in robotics. I love Robotics because there are so many different career paths that can segway into Robotics. Mechanical, electrical, computer science- coding!</p>
+        </li>
+        <li>
+          <p>Top 7 careers defining the industry</p>
+          <ul>
+            <li>
+              <p>Design Engineer ($68k)- designs the visual look of the robot</p>
+            </li>
+            <li>
+              <p>Software Engineer ($86k)- designs the robot software</p>
+            </li>
+            <li>
+              <p>Hardware Engineer ($88k)- responsible for computer hardware robots use to function</p>
+            </li>
+            <li>
+              <p>UX Designer ($105k)- responsible for user experience; how customers interact w/ robot (engineers may overlook this aspect)</p>
+            </li>
+            <li>
+              <p>Data Scientist ($106k)- designs data modeling processes and creates the algorithms and predictive models on which the data is gathered and interpreted. Algorithms, Math, Statistics, Marketing, Monteyyyy.</p>
+            </li>
+            <li>
+              <p>Machine Learning Engineer ($112k)- responsible for the automation aspect</p>
+            </li>
+            <li>
+              <p>Algorithm Engineer ($121k)- research, dev, and tests algorithms the robots run on</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>What that type of education and certs are required?</p>
+        </li>
+        <li>
+          <p>Earning potential?</p>
+        </li>
+        <li>
+          <p>Why should Black people get into this field? Talk about face recognition technology. How they fail to recognize black faces</p>
+        </li>
+        <li>
+          <p>Elaborate on the future of robotics</p>
+          <ul>
+            <li>
+              <p>Commercial break - 3 minutes</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Promote MISLA Billionaire Bootcamps (For Billionaire Bootcamps follow @therealmisla)</p>
+        </li>
+        <li>
+          <p>Tease details for the next show</p>
+        </li>
+        <li>
+          <p>Direct listeners to connect with Flip and me on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>Jen, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            NFT Expoverse 2022: The largest blockchain expo in LA goes down July 29-31 at LA Convention Center; Get tix at nftexpoverse.com
+          </p>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. When we come forward, you’ll be
+            listening to The Back Story with Mischa Duffy. Backstory of films, songs, books…
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time, peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible. </p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+          <ul>
+            <li>
+              <p>No CURSING!</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>Retrospective:</p>
+      <ul>
+        <li>
+          <p>Don’t call the guests “co-hosts”</p>
+        </li>
+        <li>
+          <p>When guest comes on, part of the convo we can geek out, but most of the convo has to be had as though we are explaining it to a 5 year old</p>
+        </li>
+        <li>
+          <p>To get guests to call in, don’t ask them to call, just say, Welcome Forward, 800-920-1580…</p>
+        </li>
+      </ul>
+      <p>RETRO- Listen to the tape</p>
+      <ul>
+        <li>
+          <p>Need to introduce the guest when u bring them in. Who are they?!</p>
+        </li>
+        <li>
+          <p>Bring the Guest into the second segment</p>
+        </li>
+        <li>
+          <p>My time is never up in my first segment. I missed some of the tea. I can go over a bit.</p>
+        </li>
+        <li>
+          <p>Stop trying to remember the clock. Let the engineer guide me.</p>
+        </li>
+        <li>
+          <p>Look at the board for callers.</p>
+        </li>
+        <li>
+          <p>Love the Tea in Tech… What’s missing is an editorial about the news… What do I think about it. Comment on the Tea. Why am I telling you about this news from Cassie’s perspective? Why does it matter to us (Black People).</p>
+        </li>
+        <li>
+          <p>Gen Z likes to do cuz it skews younger</p>
+        </li>
+        <li>
+          <p>Get outta your head! She asked how am I and I didn’t answer.</p>
+        </li>
+        <li>
+          <p>Charitable Listening</p>
+        </li>
+        <li>
+          <p>Get off the page. Come in with just bullets</p>
+        </li>
+        <li>
+          <p>Be open and transparent. Connect with the Audience</p>
+        </li>
+        <li>
+          <p>When done w/ Caller. Thank the caller. Use their name, when I’m done or at the beginning of my comment. Write the name of the caller I spoke to if I need to refer back to that person.</p>
+        </li>
+        <li>
+          <p>Eugene wasn’t rambling</p>
+        </li>
+        <li>
+          <p>Connect the humanity of the person I’m talking to</p>
+        </li>
+        <li>
+          <p>I’m a tech evangelist. How tech has impacted your life. How has technology changed your world. It’s not either or, it’s both/ and</p>
+        </li>
+        <li>
+          <p>Ah ha moment for the listener</p>
+        </li>
+        <li>
+          <p>At the bottom and the top, turn my body towards the monitor while I’m talking. To follow the clock.</p>
+        </li>
+        <li>
+          <p>Syndicate the program- Make the show for everyone across the country.</p>
+        </li>
+        <li>
+          <p>Sales: Don’t make it a numbers game. Make it about ur demographic, etc…</p>
+        </li>
+        <li>
+          <p>We the most trusted, credible, reliable, women. Demographic Profile…</p>
+        </li>
+        <li>
+          <p>360 Presentation. In the coming year. Here’s what we’re doing. Lay out all the things. What pieces do you want… $3M from Walmart...</p>
+        </li>
+      </ul>
+    `,
+  },
+  {
+    number: '3',
+    title: 'WiFi Money',
+    date: '30-07-2022',
+    subject: 'Crypto, stocks, NFTs, DeFi, etc.',
+    artist: 'Najah Roberts',
+    flyerUrl: 'assets/images/v2/Talk_Tech_to_Me_NajahRoberts_episode_2ndart.jpg',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+        Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <h1>What’s the Tea in Tech</h1>
+      <ul>
+        <li>
+          <p>
+            Hope For Humanity
+          </p>
+          <ul>
+            <li>
+              <p>Story of Inspiration…</p>
+            </li>
+            <li>
+              <p>MISLA small background…  has been teaching youth in Long Beach</p>
+            </li>
+            <li>
+              <p>Facebook Post car.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            The Weeknd goes insane on the blockchain
+          </p>
+          <ul>
+            <li>
+              <p>The Weeknd's “After Hours Til Dawn” world tour, which debuted on July 8, will incorporate Web3 tech thanks to a partnership with Binance, the biggest cryptocurrency exchange in the world.</p>
+            </li>
+            <li>
+              <p>Crypto components of the tour, like NFTs, digitized ticket stubs, and merch, will be produced by Binance in collaboration with HXOUSE, The Weeknd's creative incubator initiative.</p>
+              <h3>CASSIE’S THOUGHTS</h3>
+              <ol type="1">
+                <li>
+                  <p>I was on that website, first off… increase the font… cuz it’s giving me Gen Z elitist</p>
+                </li>
+                <li>
+                  <p>What is that? How do they get in/ apply? In-person? Or virtual</p>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Gen Z is over WFH
+          </p>
+          <ul>
+            <li>
+              <p>A new NSHSS survey reveals that Gen Z (9-24)  is OVER working from home. More than 75% of them want to go back to work.</p>
+            </li>
+            <li>
+              <p>According to the survey, they are over ZOOM, remote learning during the pandemic turned them off. The kids are zoomed out.</p>
+            </li>
+            <li>
+              <p>Gen Z desires networking and mentorship. Because of the lack of in-person mentoring throughout the pandemic, Gen Z is having a more challenging time navigating workplace norms (knowing how to act right at work) and forming meaningful connections at a crucial stage in their career development</p>
+              <ul>
+                <li>
+                  <p>Cassie’s thoughts</p>
+                  <ul>
+                    <li>
+                      <p>I was mortified that the teachers weren’t staying on the calls w the students. It turned into self learning and those methods don’t work for our communities.</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Wall Street Journal blasts Elon Musk for creeping with Google co-founder’s wife
+          </p>
+          <ul>
+            <li>
+              <p>According to a shocking report published on Sunday by the Wall Street Journal, Elon Musk allegedly had a brief hookup with the wife of Google co-founder, Sergey Brin, last fall.</p>
+            </li>
+            <li>
+              <p>This allegedly led to Sergey Brin’s filing for divorce and the breakup of the long-standing friendship between the two tech billionaires.</p>
+            </li>
+            <li>
+              <p>
+              Messy Musky called it a “hit piece." He shared a selfie with Sergey on Twitter and even said they partied together the night before and it was “positive vibes.” The allegations have since been denied by Sergey's soon-to-be ex-wife, Nicole Shanahan.
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Ex Coinbase manager locked up for insider trading
+          </p>
+          <ul>
+            <li>
+              <p>Ishan Wahi, a former Coinbase product manager, and two other people were charged with insider trading on the Coinbase exchange that netted them about $1.5 million.</p>
+            </li>
+            <li>
+              <p>This is the first case, that we know of, of insider trading in the cryptocurrency sector. While working at Coinbase, these guys sold information to third parties and made investments in cryptocurrencies before they were listed on the exchange using their insider knowledge.</p>
+            </li>
+            <li>
+              <p>
+              Ishan Wahi and his brother Nikhil Wahi were taken into custody at the airport, trying to catch a flight to India. Sameer Ramani, Wahi's buddy and partner, is still at large.
+              </p>
+              <h3>CASSIE’S THOUGHTS</h3>
+              <ol>
+                <li>
+                  <p>First of all, caught at the airport? Don’t you have a private jet, sir? All that money and you tried to fly commercial?</p>
+                </li>
+                <li>
+                  <p>Soft out with a commercial break: 3 minutes</p>
+                </li>
+                <li>
+                  <p>He won’t go to break until she is ready</p>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward <strong>1 800-920-1580</strong>. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580”.</p>
+        </li>
+        <li>
+          <p>
+            Introduce guest: Next, I'd like to introduce the “Bitcoin Queen” Najah Roberts,  founder of Crypto Blockchain Plug the nation's first African American and woman-owned cryptocurrency exchange and education center. She is a sought-after crypto expert, motivational speaker, and host of "Ahead of the Crypto Curve" right here on KBLA Talk 1580. She is fiercely committed to using crypto education to transform the world.
+          </p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Storytime: Talk about getting a grant to do digital literacy bootcamps. Ironically, they wanted to know what crypto had to do with tech</p>
+        </li>
+        <li>
+          <p>Get into Najah’s background + how and why she got into crypto</p>
+        </li>
+        <li>
+          <p>Why should we care about cryptocurrency?</p>
+        </li>
+        <li>
+          <p>How do you start?</p>
+        </li>
+        <li>
+          <p>Young blockchain billionires</p>
+          <ul>
+            <li>
+              <p>Sam Bankman-Fried- 30-year-old CEO of crypto exchange FTX; youngest crypto billionaire with a net worth of $24B</p>
+            </li>
+            <li>
+              <p>Vitalik Buterin- Co-founded Ethereum at just 21 y.o. Crowned the “World’s Youngest Crypto Billionaire” by Forbes in 2021 at the age of 27. The 28-year-old has since lost his billionaire status</p>
+            </li>
+            <li>
+              <p>Charles Hoskinson- 34 y.o founder of Cardano and a co-founder of Ethereum. Net worth is approx.  $500-600M</p>
+            </li>
+            <li>
+              <p>Billionaire twins Cameron and Tyler - Founders of crypto exchange Gemini and NFT platform Nifty Gateway; most known for suing former classmate Mark Zuckerberg for stealing their concept of Facebook, Zuck settled out of court for $65M. The brothers have an estimated net worth of $5B each</p>
+            </li>
+            <li>
+              <p>Erik Finman- bought $1,000 worth of Bitcoin at 12 y.o when BTC was $10. Now he’s worth millions. He’s about 21-22 y.o now</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Has the crypto wave passed? Is it too late for people to get in?</p>
+        </li>
+        <li>
+          <p>Tesla recently dumped 75% of its Bitcoin holdings, what effect will this have on the market? Is Elon Musk trying to short the market?</p>
+          <ul>
+            <li>
+              <p>Hard Out at the 30 (bottom of the hour) with a 6-minute break</p>
+            </li>
+            <li>
+              <p>News and traffic break - 3 minutes</p>
+            </li>
+            <li>
+              <p>Commercial break - 3 minutes</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <ul>
+        <li>
+          <p>Najah and Cassie talk experience working together at the crypto bootcamp</p>
+        </li>
+        <li>
+          <p>Commercial break - 3 minutes</p>
+        </li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Promote MISLA Billionaire Bootcamps (For Billionaire Bootcamps follow @therealmisla)</p>
+        </li>
+        <li>
+          <p>Tease details for the next show: Next week we’ll talk sex in tech w/ Nicole the Pole</p>
+        </li>
+        <li>
+          <p>Direct listeners to connect with Najah and Cassie on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>Najah, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            NFT Expoverse 2022: The largest blockchain expo in LA goes down July 29-31 at LA Convention Center; Get tix at nftexpoverse.com
+          </p>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. When we come forward, you’ll be
+            listening to The Back Story with Mischa Duffy. Backstory of films, songs, books…
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time, peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible. </p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+        </li>
+      </ul>
+    `,
+  },
+  {
+    number: '4',
+    title: 'Balancing Act',
+    date: '06-08-2022',
+    subject: 'Can professional women be sexy in the digital realm?',
+    artist: 'Nicole "The Pole" Williams',
+    flyerUrl: 'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode copy 2.jpg',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+      Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <h1>What’s the Tea in Tech</h1>
+      <p>Moment of Silence for those who died…</p>
+      <p>The pregnant woman was the sister of one of my students</p>
+      <p>They have a GoFundMe. Beware of Fakes. Link In my stories @instabetts</p>
+      <p>They have raised the $100k for the funeral to bury 4 people but you can still give Lawyers, therapy</p>
+      <ul>
+        <li>
+          <p>
+          Make Instagram Instagram again!
+          </p>
+          <ul>
+            <li>
+              <p>Instagram users are in a tizzy over the app’s new product changes like its new TikTok-style feed and recommended posts</p>
+            </li>
+            <li>
+              <p>Daily posts from Twitter quickly went viral with those making it known that they don’t like the change from static photos to the prioritization of Reels videos</p>
+            </li>
+            <li>
+              <p>Pics not showing up in the algorithm</p>
+            </li>
+            <li>
+              <p>Even the Kardashian-Jenner clan chimed in “Make Instagram Instagram Again” meme that went viral</p>
+            </li>
+            <li>
+              <p>Change.org petition 300k signatures</p>
+            </li>
+            <li>
+              <p>IG CEO said the recent changes will be phased out over the next few weeks</p>
+            </li>
+            <li>
+              <p>Takeaway is, don’t make an app that everyone loves and then change everything trying to keep up w/ the joneses</p>
+            </li>
+            <li>
+              <p>Can’t we all just get along??? Me as the consumer, I gotta suffer cuz erbody trying to have WORLD DOMINATION.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+          <a href="https://www.vibe.com/news/tech/tee-grizzley-grand-theft-auto-1234679534/"><u>Rapper Tee Grizzley</u></a> secures the bag with No Effort with his Grand Theft Auto roleplay server “Grizzley World”
+          </p>
+          <ul>
+            <li>
+              <p>The 28 y.o. Detroit rap star Signed on to a gaming platform called XSET</p>
+            </li>
+            <li>
+              <p>He recently shared that he monetizes his gaming server by streaming on Twitch, YouTube, paid ads, sponsorships, and then some</p>
+            </li>
+            <li>
+              <p>Gamers earning $1M per month in online streaming inspired him to get into the space and now he’s earning nearly $200k per month</p>
+            </li>
+            <li>
+              <p>Let yo kids play games</p>
+            </li>
+            <li>
+              <p>I use to be a GAMER in my younger days.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.theverge.com/2022/8/4/23291180/solana-cryptocurrency-slope-phantom-wallet-theft-supply-chain-attack"><u>Mo’ Crypto Mo’ Problems</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Blockchain platform Solana experienced a hack of about 9,000 crypto wallets upon the recent opening of its physical store Solana Spaces in NYC</p>
+            </li>
+            <li>
+              <p>On Wednesday hackers drained wallets containing Solana (SOL) & USD Coin (USDC) using the owner’s private keys</p>
+            </li>
+            <li>
+              <p>An investigation discovered wallets connected to Slope’s mobile wallet app were affected</p>
+            </li>
+            <li>
+              <p>The amount of crypto stolen is just over $4 million</p>
+            </li>
+            <li>
+              <p>Is this insured? Similar to electronic banking… In the beginning, there will be some L’s</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Get her by this time12:06</p>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.theverge.com/2022/8/3/23290473/beyonce-renaissance-twitter-kelis-slur-lewinsky"><u>Queen Bey is under fire over 2 songs on RENAISSANCE</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Beyonce clashed with Kelis after incorporating a portion of her 2003 hit "Milkshake" into "Energy" without notifying her. The interpolation had been removed as of Wednesday.</p>
+            </li>
+            <li>
+              <p>Queen B faced criticism for using the ableist slur "spaz" on the track “Heated,” a month and a half after Lizzo took the same term out of her song "Grrrls."</p>
+            </li>
+            <li>
+              <p>
+              Retroactively editing songs used to be a lengthy process that could take years but now a track is edited in real time and re released back to streaming platfoms
+              </p>
+            </li>
+            <li>
+              <p>
+              This week… Monica Lewinsky said, hey while u at it Bey… take me off that Partition Track. "He Monica Lewinsky'd all on my gown"…is a lyric referencing her on the 2013 hit “Partition”
+              </p>
+            </li>
+            <li>
+              <p>
+              "Spaz" is a part of hip-hop culture, this is our word and now we’re being forced to redact our songs.
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>When we come forward on Talk Tech To Me… Balancing Act: Can professional women be sexy in the digital realm?” with special guest Nicole “The Pole” Williams the Unapologetically Progressive KBLA Talk 1580</p>
+      <p>CASSIE’S THOUGHTS</p>
+      <ul>
+        <li>
+          <p>Soft out with a commercial break: 3 minutes</p>
+        </li>
+        <li>
+          <p>He won’t go to break until she is ready</p>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward <strong>1 800-920-1580</strong>. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580”.</p>
+        </li>
+        <li>
+          <p>
+            Introduce guest: Nicole “The Pole” Williams is an entrepreneur, innovator in pole dancing and fitness, spiritual life coach, Master Reiki practitioner, and early adopter of technology. She has graced your favorite music videos, toured with the biggest artists in the game, and owns one of LA’s premier pole dance studios Allure Dance & Fitness.
+          </p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> You are a pioneer of utilizing digital platforms… When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Discuss being a woman in these digital and professional streets</p>
+        </li>
+        <li>
+          <p>How did she find the courage to be herself online?</p>
+        </li>
+        <li>
+          <p>Talk about early use of apps like YouTube, MySpace, FB, etc. to raise brand awareness</p>
+          <ul>
+            <li>
+              <p>Hired virtual assistant to run social media channels</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>How did she grow her following?</p>
+        </li>
+        <li>
+          <p>Tips on finding your tribe?</p>
+        </li>
+        <li>
+          <p>How does she balance being a businesswoman working in a sexy space along w/ being a life coach?</p>
+        </li>
+        <li>
+          <p>Has being a pole dancer/instructor impacted her dating life?</p>
+        </li>
+        <li>
+          <p>Discuss PoleCon</p>
+        </li>
+        <li>
+          <p>Fun Facts:</p>
+          <ul>
+            <li>
+              <p>Known for signature moves “walk it out” and “air twerk”</p>
+            </li>
+            <li>
+              <p>Early T.V appearance on BET’s Played by Fame episode with Ludacris (2009) Fans get to go on a day date w/ their fave celeb but the date is filled w/ pranks unbeknownst to the fan</p>
+            </li>
+            <li>
+              <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
+            </li>
+            <li>
+              <p><em>News and traffic break - 3 minutes</em></p>
+            </li>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <ul>
+        <li>
+          <p>Nicole “The Soul”</p>
+          <ul>
+            <li>
+              <p>Discuss segue into becoming a spiritual life coach</p>
+            </li>
+            <li>
+              <p>Becoming a Reiki Master healer</p>
+              <ul>
+                <li>
+                  <p>What is Reiki? What does it treat? Benefits?</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>What are some books that changed your life?</p>
+        </li>
+        <li>
+          <p>How did you manifest the life you have?</p>
+        </li>
+        <li>
+          <p>Discuss the power of positive thinking & meditation</p>
+        </li>
+        <li>
+          <p>Commercial break - 3 minutes</p>
+        </li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Promote MISLA Billionaire Bootcamps (For Billionaire Bootcamps follow @therealmisla)</p>
+        </li>
+        <li>
+          <p>Tease details for the next show: Next week we’ll talk about Art in Tech w/ Watts’ very own STIX</p>
+        </li>
+        <li>
+          <p>Direct listeners to connect with Nicole and Cassie on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>Nicole, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. You’ll listen to The Back Story with Mischa Duffy when we come forward. The backstory of films, songs, books…
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time. Peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible. </p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+        </li>
+      </ul>
+    `,
   }
-]
+];
