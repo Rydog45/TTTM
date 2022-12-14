@@ -12,6 +12,8 @@ export class SingleEpisodePageComponent implements OnInit {
 
     constructor(public router: Router, activeRoute: ActivatedRoute) {
       //@ts-ignore
+      console.log(activeRoute.params.value.id, "Route params -- ");
+      //@ts-ignore
       this.episode = router.getCurrentNavigation().extras.state && router.getCurrentNavigation().extras.state.episode;
       if (!this.episode) {
         //@ts-ignore
@@ -21,6 +23,7 @@ export class SingleEpisodePageComponent implements OnInit {
       }
     }
     episode;
+    episodeId = "";
     autoplay = true;
     ngOnInit(): void {
     }

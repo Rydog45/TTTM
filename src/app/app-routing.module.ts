@@ -49,6 +49,16 @@ const routes: Routes = [
     {path: 'single-season', component: SingleSeasonPageComponent},
     {path: 'episode-list', component: EpisodeListPageComponent},
     {path: 'episode/:id', component: SingleEpisodePageComponent},
+    // {
+    //     path: 'episode',
+    //     component: SingleEpisodePageComponent,
+    //     children: [
+    //         {
+    //             path: ':id',
+    //             component: SingleEpisodePageComponent
+    //         }
+    //     ]
+    // },
     {path: 'single-video-episode', component: SingleVideoEpisodePageComponent},
     {path: 'blog', component: BlogPageComponent},
     {path: 'blog-details', component: BlogDetailsPageComponent},
