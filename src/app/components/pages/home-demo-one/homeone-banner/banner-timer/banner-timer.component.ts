@@ -118,14 +118,15 @@ export class BannerTimerComponent implements OnInit {
   }
 
   convertToPST(date: Date) {
-    // let estOffset = -5.0
-    // let utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-    // return new Date(utc + (3600000 * estOffset));
-    return new Date(
+    let formattedDate = new Date(
       date.toLocaleString('en-US', {
         timeZone: 'PST',
       })
     );
+    // formattedDate.setHours(10);
+    // formattedDate.setMinutes(0);
+    // formattedDate.setSeconds(0);
+    return formattedDate;
   }
 
   ngOnInit(): void {

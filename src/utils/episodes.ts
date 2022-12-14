@@ -1398,5 +1398,583 @@ export const episodesList = [
         </li>
       </ul>
     `,
+  },
+  {
+    number: '5',
+    title: 'Tech4Good',
+    date: '13-08-2022',
+    subject: 'Social impact through tech',
+    artist: 'STIX',
+    flyerUrl: 'assets/images/v2/Stix Graphic 8.13.22.png',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+      Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <h1>Let’s get into the Tea in Tech: piping hot tech news curated for the culture</h1>
+      <p><u>Got an opinion u want to share? 800-920-1580 is our #</u></p>
+      <ul>
+        <li>
+          <p>
+            <a href="https://blavity.com/tiktoker-shames-airbnb-after-former-slave-cabin-listed-for-rent?category1=news">TikToker airs out Airbnb for renting out former slave cabin</a>
+          </p>
+          <ul>
+            <li>
+              <p>After a viral TikTok video by Wynton Yates, a Black lawyer from New Orleans, Airbnb pulls a Mississippi rental listing described as a “slave cabin.”</p>
+            </li>
+            <li>
+              <p>Tone deaf reviews left by white people… “Memorable! Highly recommend watching the sunset.”</p>
+            </li>
+            <li>
+              <p>According to a statement given to NBC News by Airbnb, "Properties that once housed the enslaved have no place on Airbnb."</p>
+            </li>
+            <li>
+              <p>Airbnb stated that It’s collaborating with experts to create new policies to handle additional properties linked to slavery.</p>
+            </li>
+            <li>
+              <p>I have build marketplaces. You can’t control every little thing, but how many years has this Slave Cabin been on Airbnb… Why whole tik-tok video</p>
+            </li>
+            <li>
+              <p>We need diversity in tech</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.fox2detroit.com/news/kia-boyz-tiktok-challenge-sparks-theft-surge-using-usb-cables"><u>The ‘Kia Boys’ TikTok trend leads to rising car theft</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>The “Kia Boyz” is a Milwaukee-based group of young men who provided a how-to guide for stealing Kias with only a USB cord via TikTok</p>
+            </li>
+            <li>
+              <p>The USB deactivates the chip on models that only use keys</p>
+            </li>
+            <li>
+              <p>The video went viral and theft of Kias & Hyundais has increased</p>
+            </li>
+            <li>
+              <p>90% of my colleagues in tech from the hood. Got into tech with hacking…</p>
+            </li>
+            <li>
+              <p>Those are the people I hire. No one relates better to youth in disinvested communities than ex felons.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.theverge.com/2022/8/9/23298684/amazon-one-expanding-palm-print-reading-technology-california-whole-foods"><u>Pay by scanning your palm at Whole Foods</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Amazon's palm-scanning technology is now offered at 65 Whole Foods locations throughout California.</p>
+            </li>
+            <li>
+              <p>Customers can activate Amazon One by registering their palm print at a participating store's kiosk or point-of-sale station.</p>
+            </li>
+            <li>
+              <p>Amazon’s line of products & services like Alexa, Ring Doorbell, and its room mapping robot has been a concern for data privacy advocates.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.engadget.com/ghosting-criminal-offense-philippines-bill-154530749.html"><u>The Philippines wants to punish ghosters</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Arnolfo Teves Jr., a member of the Philippine House of Representatives wants to propose a bill that will punish ghosting</p>
+            </li>
+            <li>
+              <p>He argues that ghosting is a form of emotional cruelty that can impact productivity and should be punished</p>
+            </li>
+            <li>
+              <p>
+              Teves believes community service is appropriate
+              </p>
+            </li>
+            <li>
+              <p>
+              As an app developer myself, I think it’s an opportunity for dating apps to incentivize healthy communications. Instead of punishing for ghosting
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://afrotech.com/mike-tyson-hulu-biopic-series"><u>Mike Tyson blasts Hulu for unauthorized biopic</u></a>
+              </p>
+              <ul>
+                <li>
+                  <p>Boxing Champ “Iron” Mike Tyson goes toe to toe with streaming service Hulu for stealing his life story without compensation for the upcoming miniseries “Mike” set to premiere later this month</p>
+                </li>
+                <li>
+                  <p>He voiced his opinion in an Instagram caption that read “Hulu is the streaming version of the slave master. They stole my story and didn’t pay me.”</p>
+                </li>
+                <li>
+                  <p>Tyson is currently working on his own life-centered T.V series. Jamie Foxx is geared up to portray him, Antoine Fuqua will serve as director and Martin Scorsese will executive produce the series that’s currently being pitched to networks.</p>
+                </li>
+              </ul>
+            </li>
+            <li><p>Speaking of life stories, when we come forward, we’ll be chatting with a man who’s life story is movie worthy.</p></li>
+          </ul>
+        </li>
+      </ul>
+      <p>This episode of Talk Tech To Me… “Tech4Good” with special guest STIX / watts Stix of Think Watts on the Unapologetically Progressive KBLA Talk 1580</p>
+      <p>CASSIE’S THOUGHTS</p>
+      <ul>
+        <li>
+          <p>Soft out with a commercial break: 3 minutes</p>
+        </li>
+        <li>
+          <p>He won’t go to break until she is ready</p>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward <strong>1 800-920-1580</strong>. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580”.</p>
+        </li>
+        <li>
+          <p>
+            <b>Introduce guest:</b> STIX is a multidimensional hip-hop artist, activist, community builder, entrepreneur, father, and husband. His passion and love for his community are undeniable. He puts on for Watts and it shows in everything that he does from music to apparel and the social impact programs implemented through his Think Watts Foundation.
+          </p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Briefly discuss music industry background (artist, songwriter, producer, and artist development)</p>
+        </li>
+        <li>
+          <p>Discuss transition into tech, financial literacy, and community work</p>
+        </li>
+        <li>
+          <p>Discuss experience growing up in Watts</p>
+        </li>
+        <li>
+          <p>Discuss inspiration</p>
+        </li>
+        <li>
+          <p><strong>Think Watts Foundation (Founder)</strong></p>
+          <ul>
+            <li>
+              <p>Tech programs</p>
+            </li>
+            <li>
+              <p>Farming</p>
+            </li>
+            <li>
+              <p>Microsoft Partnership</p>
+            </li>
+            <li>
+              <p>Mastercard x Business Builder Program</p>
+            </li>
+            <li>
+              <p>Nike campaign</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Think Pockets (Founder)</strong></p>
+          <ul>
+            <li>
+              <p>Mission + projects,</p>
+            </li>
+            <li>
+              <p><strong>Has ownership:</strong></p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Vyre Network (streaming network)</p>
+        </li>
+        <li>
+          <p>Persky (rewards app)</p>
+        </li>
+        <li>
+          <p>MyXR Inc. (AR platform)</p>
+        </li>
+        <li>
+          <p>Black Unicorn Factory (Black-owned VC firm)</p>
+        </li>
+        <li>
+          <p>Fun Facts:</p>
+          <ul>
+            <li>
+              <p>STIX began his journey as a dancer and one of the pioneers of the Krump dance movement that was birthed in the 2000s.</p>
+            </li>
+            <li>
+              <p>The first-ever MLS and Hip-Hop soccer anthem, titled "My Home," was created by STIX for LAFC in 2019.</p>
+            </li>
+            <li>
+              <p>2021- STIX received the key to the city of Watts</p>
+            </li>
+            <li>
+              <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
+            </li>
+            <li>
+              <p><em>News and traffic break - 3 minutes</em></p>
+            </li>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <ul>
+        <li>
+          <p>How to create strategic partnerships with companies?</p>
+          <ul>
+            <li>
+              <p>He’s the first artist to partner w/ 4 major sports leagues: LA Clippers, LA Rams, LAFC (LA Football Club), and LA Dodgers</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Tips on securing funding?</p>
+        </li>
+        <li>
+          <p>How to build a solid team?</p>
+        </li>
+        <li>
+          <p>Productivity hacks?</p>
+        </li>
+        <li>
+          <p>What does your morning routine consist of?</p>
+        </li>
+        <li>
+          <p>Discuss veganism + wellness tips for success</p>
+        </li>
+        <li>
+          <p>How does someone start a nonprofit? What tools, resources, and essentials are needed?</p>
+        </li>
+        <li>
+          <p>What is one piece of practical advice you would give to someone starting out?</p>
+        </li>
+        <li>
+          <p>Future of Think Watts?</p>
+        </li>
+        <li>
+          <p>Vision for the city of Watts?</p>
+        </li>
+        <li>
+          <p>Commercial break - 3 minutes</p>
+        </li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Promote MISLA Billionaire Bootcamps (For Billionaire Bootcamps follow @therealmisla)</p>
+        </li>
+        <li>
+          <p>Tease details for the next show: Next week we’ll talk about “Black Families in Tech”  w/ Phillip Banks & family</p>
+        </li>
+        <li>
+          <p>Direct listeners to connect with STIX and Cassie on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>STIX, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. You’ll listen to The Back Story with Mischa Duffy when we come forward. The backstory of films, songs, books…
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time. Peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible. </p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+        </li>
+      </ul>
+    `,
+  },
+  {
+    number: '6',
+    title: 'The Family That Codes Together, Gets Dough Together',
+    date: '19-08-2022 to 20-08-2022',
+    subject: 'The Family That Codes Together...',
+    artist: 'Phillip Banks Keila Banks',
+    flyerUrl: 'assets/images/v2/Andree.png',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+      Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <h1>What’s the Tea in Tech:</h1>
+      <ul>
+        <li>
+          <p>
+            <a href="https://afrotech.com/tiktoks-support-black-businesses-program-returns"><u>TikTok’s Support Black Businesses Accelerator Program is Now Open</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>TikTok is accepting applications for the third round of their Support Black Businesses accelerator program in honor of #BlackBusinessMonth</p>
+            </li>
+            <li>
+              <p>The program will include 4 weeks of virtual training + exclusive access to resources, benefits, and networking opportunities</p>
+            </li>
+            <li>
+              <p>Black businesses, creators + entrepreneurs apply at <a href="https://tiktoksupportblack.com/">tiktoksupportblack.com</a> by Aug. 24th</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.blackenterprise.com/calling-tech-enthusiasts-brooklyn-brothers-open-first-black-residency-hacker-house/"><u>Brooklyn Brother Duo Opens First Black Hacker House</u></a>
+          </p>
+          <ul>
+            <li>
+              <p><strong>RHouse</strong>, a conscious engineer, founder, and creative space founded by brothers Rusty and River Fields, unites Black techies who are enthusiastic about founding Web3 start-ups</p>
+            </li>
+            <li>
+              <p>With their own hacker house, the pair hopes to solve the racial divide and lack of diversity that occur in urban tech hotspots like San Francisco</p>
+            </li>
+            <li>
+              <p>RHouse started its first four-week residency program this summer in a Brooklyn brownstone in Bed-Stuy. 13 builders, artists, and designers had the chance to participate in workshops, panel discussions, fireside chats, meet-ups, tours, and networking events between July 11 and August 5. The fall cohort opens soon.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://afrotech.com/p-valley-star-j-alphonse-nicholso-cannabis?item=2"><u>Ball Family Farms (BFF) Drops New Anxiety Reducing Strain w/ P-Valley Star</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Cannabis tech \</p>
+            </li>
+            <li>
+              <p>Actor J. Alphonse Nicholson, who plays Lil’ Murda in "P-Valley," credits cannabis with his ability to focus on his craft</p>
+            </li>
+            <li>
+              <p>He’s been open about battling anxiety his entire life, but BFF products have helped him. In an effort to promote calmness and relaxation, J. Alphonse partnered with Ball Family Farms to develop the strain "The Phonzie."</p>
+            </li>
+            <li>
+              <p>The terpene-rich strain is said to have a skittles and cream flavor with a fruit basket aroma. It’ll be available at California retailers soon.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.blackenterprise.com/chevy-partners-with-black-designers-aurora-james-and-justin-salmon-to-bring-its-first-ever-all-electric-suv-to-life/"><u>Chevy Collabs with Black Designers to Create its First Electric SUV</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Chevy will unveil its first-ever all-electric Blazer EV in collaboration with fashion designer Aurora James, the creator of the eco-friendly brand Brother Vellies, and Justin Salmon, a creative designer for GM.</p>
+            </li>
+            <li>
+              <p>This mid-size SUV is stylish, functional, and technologically complete with a futuristic design that comes in several trim levels, hues, and battery power levels.</p>
+            </li>
+            <li>
+              <p>
+              The 2024 Blazer EV will go on sale in the summer of 2023.
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>When we come forward on Talk Tech To Me… “The Family That Codes Together, Gets Dough Together” with special guests Phillip & Keila Banks on the Unapologetically Progressive KBLA Talk 1580</p>
+      <ul>
+        <li>
+          <p>Soft out with a commercial break: 3 minutes</p>
+        </li>
+        <li>
+          <p>He won’t go to break until she is ready</p>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward <strong>1 800-920-1580</strong>. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580”.</p>
+        </li>
+        <li>
+          <p>
+            <b>Introduce guest:</b> Phillip Banks Sr., also known as Big Cyber, is the CEO and co-founder of Banks Family Tech, together with his daughter Keila and sons Phillip Jr., David, and Hunter. The Banks family has a passion for tech, business, and the arts. They have redefined what Black parenting and Black families could look like through tech, entrepreneurship, and speaking at the largest conferences in the world.
+          </p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Background: started coding at 10 years old, IT consultant + instructor</p>
+        </li>
+        <li>
+          <p>Discuss Phillip’s nontraditional journey into tech</p>
+        </li>
+        <li>
+          <p>Explain Banks Family Tech’s mission</p>
+        </li>
+        <li>
+          <p>Phillip is an open-source software evangelist</p>
+          <ul>
+            <li>
+              <p>Explain how you leverage open-source software and which ones you recommend for beginners.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>How did you get your kids involved in tech? (is he giving Joe Jackson vibes? Lol)</p>
+        </li>
+        <li>
+          <p>Discuss importance of public speaking</p>
+        </li>
+        <li>
+          <p>Discuss journey into entrepreneurship</p>
+        </li>
+        <li>
+          <p>Tips on running a business w/ family?</p>
+        </li>
+        <li>
+          <p>How do we get tech-averse kids interested in tech?</p>
+        </li>
+        <li>
+          <p>How can we best support our youth in this space?</p>
+        </li>
+        <li>
+          <p>The importance of attending conferences</p>
+          <ul>
+            <li>
+              <p>Must attend events</p>
+            </li>
+            <li>
+              <p>Tips on making connections/building relationships</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Have you experienced any challenges as a Black family in Tech? If so how did you overcome them?</p>
+        </li>
+        <li>
+          <p>Favorite project?</p>
+        </li>
+        <li>
+          <p>Proudest moment?</p>
+        </li>
+        <li>
+          <p>Fun Facts:</p>
+          <ul>
+            <li>
+              <p>Phillip knows how to build computers from scratch</p>
+            </li>
+            <li>
+              <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
+            </li>
+            <li>
+              <p><em>News and traffic break - 3 minutes</em></p>
+            </li>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <p>Fun Facts (Keila): Read as an intro to the next segment</p>
+      <p>Script: Welcome forward 1 800-920-1580. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580.” I want to introduce our next guest. Keila Banks</p>
+      <ul>
+        <li><p>Keila started blogging at 6 years old</p></li>
+        <li><p>Learned HTML at 9 years old</p></li>
+        <li><p>First keynote was at SCALE (Southern California Linux Expo) at 11 years old</p></li>
+        <li><p>Presented at the White House at 14 years old (during Obama Administration)</p></li>
+        <li>
+          <p>Received full ride scholarship to Howard University</p>
+          <ul>
+            <li><p>What is your origin story?</p></li>
+            <li><p>What are you majoring in at Howard?</p></li>
+            <li><p>Once you graduate from school, do you plan to keep working to build the Banks Family Empire, or do you want to strike out on your own?</p></li>
+            <li><p><em>Commercial break - 3 minutes</em></p></li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Direct listeners to connect with Phillip, Keila, and Cassie on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>Phillip & Keila, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+              <ul>
+                <li>
+                  <p>Tease details for the next show:  Be sure to tune in to next week’s episode “Tech Saved Me,” featuring Andre Anthony.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. You’ll listen to The Back Story with Mischa Duffy when we come forward. The backstory of films, songs, books…
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time. Peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible. </p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+        </li>
+      </ul>
+    `,
   }
 ];
