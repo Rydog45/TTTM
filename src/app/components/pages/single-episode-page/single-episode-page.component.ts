@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Track } from 'ngx-audio-player';
-import {ActivatedRoute, Router} from "@angular/router";
+import {ActivatedRoute} from "@angular/router";
 import { episodesList } from 'src/utils/episodes';
 
 @Component({
@@ -10,21 +10,22 @@ import { episodesList } from 'src/utils/episodes';
 })
 export class SingleEpisodePageComponent implements OnInit {
 
-    constructor(public router: Router, activeRoute: ActivatedRoute) {
-      //@ts-ignore
-      console.log(activeRoute.params.value.id, "Route params -- ");
-      //@ts-ignore
-      this.episode = router.getCurrentNavigation().extras.state && router.getCurrentNavigation().extras.state.episode;
-      if (!this.episode) {
-        //@ts-ignore
-        this.episode = episodesList.find(o => o.title.split(' ').join('-').toLowerCase() === activeRoute.params.value.id);
-        //@ts-ignore
-        this.router.navigate(["episode/" + activeRoute.params.value.id]);
-      }
-    }
-    episode;
-    episodeId = "";
-    autoplay = true;
-    ngOnInit(): void {
-    }
+  episode: any = null;
+  constructor(private route: ActivatedRoute) {
+    // console.log(activeRoute.params.value.id, "Route params -- ");
+    // //@ts-ignore
+    // this.episode = router.getCurrentNavigation().extras.state && router.getCurrentNavigation().extras.state.episode;
+    // if (!this.episode) {
+    //   //@ts-ignore
+      // this.episode = episodesList.find(o => o.title.split(' ').join('-').toLowerCase() === activeRoute.params.value.id);
+    //   //@ts-ignore
+    //   this.router.navigate(["episode/" + activeRoute.params.value.id]);
+    // }
+  }
+  episodeId = "";
+  autoplay = true;
+  ngOnInit(): void {
+    //@ts-ignore
+    this.episode = episodesList.find(o => o.title.split(' ').join('-').toLowerCase() === this.route.snapshot.params.id);
+  }
 }
