@@ -1,7 +1,7 @@
 <!-- Page Banner -->
 <div class="page-banner-area bg-3 ptb-100">
   <div class="container">
-    <div class="page-banner-content">
+    <div class="page-banner-content" *ngIf="episode !== null">
       <h2>{{ episode.artist }}</h2>
       <ul>
         <li>
@@ -50,7 +50,7 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-12">
-        <div class="single-podcast-content">
+        <div class="single-podcast-content" *ngIf="episode !== null">
           <span class="date">Episode: {{ episode.number }}</span>
           <h3>{{ episode.title }}</h3>
           <div [innerHTML]="episode.description"></div>
