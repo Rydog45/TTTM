@@ -13,6 +13,9 @@
     color: var(--optional-color);
     font-size: 2rem;
   }
+  .featured-image {
+    max-width: 350px;
+  }
 }
 
 /* Max width 767px */
@@ -22,6 +25,9 @@
     flex-direction: column !important;
     img {
       width: 100% !important;
+    }
+    .featured-image {
+      max-width: 100%;
     }
     .episodes-list {
       flex-direction: column;
