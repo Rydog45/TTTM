@@ -27,5 +27,6 @@ export class SingleEpisodePageComponent implements OnInit {
   ngOnInit(): void {
     //@ts-ignore
     this.episode = episodesList.find(o => o.title.split(' ').join('-').toLowerCase() === this.route.snapshot.params.id);
+    this.episodeId = this.episode.title
   }
 }
