@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { episodesList } from 'src/utils/episodes';
 
 @Component({
   selector: 'app-homeone-featured',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeoneFeaturedComponent implements OnInit {
 
   constructor() { }
-
+  featuredEpisode = episodesList[2];
   ngOnInit(): void {
   }
 

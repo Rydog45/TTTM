@@ -4,16 +4,25 @@
       <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 p-4">
           <div class="position-relative">
-            <h1 class="position-absolute start-0 top-0 featured-title">Featured</h1>
+            <h1 class="position-absolute featured-title">Featured</h1>
             <div class="featured-content d-flex justify-content-between gap-5">
-              <img src="assets/images/v2/Talk_Tech_to_Me_CASSIExFLIP_2 1.png" alt="featured" class="img-fluid w-25" />
+              <a routerLink="/episode/{{featuredEpisode.title.split(' ').join('-') | lowercase}}" [state]="{episode: featuredEpisode}">
+                <img src={{featuredEpisode.flyerUrl}} alt="image" class="featured-image" />
+              </a>
+              <!-- <img src="assets/images/v2/Talk_Tech_to_Me_CASSIExFLIP_2 1.png" alt="featured" class="img-fluid w-25" /> -->
               <div class="featured-detail d-flex flex-column gap-3">
                 <div class="episodes-list d-flex gap-3">
                   <a href="#" class="list-number">Season 01</a>
-                  <a href="#" class="list-number">Episode: 01</a>
+                  <a class="list-number" routerLink="/episode/{{featuredEpisode.title.split(' ').join('-') | lowercase}}" [state]="{episode: featuredEpisode}">Episode: {{featuredEpisode.number}}</a>
                 </div>
-                <h2>Jeremiah ‘Flip’ Benjamin- Saturday, July 16th</h2>
-                <p class="text-white">Los Angeles based Metaverse Architect, 3D Modeler, Architectual Designer, </p>
+                <h2>
+                  <a routerLink="/episode/{{featuredEpisode.title.split(' ').join('-') | lowercase}}" [state]="{episode: featuredEpisode}">
+                    Jeremiah ‘Flip’ Benjamin- Saturday, July 16th
+                  </a>
+                </h2>
+                <!-- <h2>Jeremiah ‘Flip’ Benjamin- Saturday, July 16th</h2> -->
+                <!-- <p class="text-white">{{featuredEpisode.description}}</p> -->
+                <p class="text-white" [innerHTML]="featuredEpisode.subject"></p>
               </div>
             </div>
           </div>
