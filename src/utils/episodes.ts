@@ -1,115 +1,14 @@
 export const episodesList = [
   {
     number: '0',
-    title: 'Pilot never Went Live/ Multi-Media and Tech',
+    title: 'Pilot never Went Live Multi-Media and Tech',
     date: '01-05-2022',
     subject: 'Test Pilot',
     artist: 'Cassandra Cooper',
     flyerUrl:
       'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
     link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
-    description: `
-    <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-      Neque porro quia non numquam eius modi tempora incidunt ut labore et
-      dolore magnam dolor sit amet, consectetur adipisicing.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur
-      <strong>adipisicing</strong> elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      <a routerLink="/">commodo</a> consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora incidunt ut
-      labore et dolore magnam aliquam quaerat.
-    </p>
-    <ol>
-      <li>
-        <p>Nunc, mauris ut in vestibulum. Consectetur phasellus ultrices
-        fusce nibh justo, venenatis, amet. Lectus quam in</p>
-      </li>
-      <li>
-        <p>Most of the designer are very creative to do something , mauris ut
-        in vestibulum. Consectetur phasellus ultrices fusce nibh justo,
-        venenatis, amet. Lectus quam in lobortis.</p>
-      </li>
-      <li>
-        <p>There are two thing is very important in Consectetur phasellus
-        ultrices fusce nibh justo, venenatis, amet. Lectus quam.</p>
-      </li>
-      <li>
-        <p>Web design and development very creative to do something, Mauris
-        ut in vestibulum. Consectetur phasellus ultrices fusce nibh
-        venenatis, amet to all design and development.</p>
-      </li>
-    </ol>
-    <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-      Neque porro quia non numquam eius modi tempora incidunt ut labore et
-      dolore magnam dolor sit amet, consectetur adipisicing.
-    </p>
-    <p>
-      <img src="assets/images/blog/blog-2.jpg" alt="image" />
-    </p>
-    <p>
-      <img src="assets/images/blog/blog-3.jpg" alt="image" />
-    </p>
-    <p>
-      <img src="assets/images/blog/blog-4.jpg" alt="image" />
-    </p>
-    <h3>Four major elements that we offer:</h3>
-    <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-      Neque porro quia non numquam eius modi tempora incidunt ut labore et
-      dolore magnam dolor sit amet, consectetur adipisicing.
-    </p>
-    <ul>
-      <li><p>Scientific skills for getting a better result</p></li>
-      <li><p>Communication skills to getting in touch</p></li>
-      <li><p>A career overview opportunity is available</p></li>
-      <li><p>A good work environment for work</p></li>
-    </ul>
-    <h3>Setting the mood with incense</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora incidunt ut
-      labore et dolore magnam aliquam quaerat.
-    </p>
-    <blockquote>
-      <p>
-        It is a long-established fact that a reader will be distracted by
-        the readable content of a page when looking at its layout.
-      </p>
-    </blockquote>
-    <h3>The rise of marketing and why you need it</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur
-      <strong>adipisicing</strong> elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      <a routerLink="/">commodo</a> consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora incidunt ut
-      labore et dolore magnam aliquam quaerat.
-    </p>
-    <p>
-      <strong>TAGS:</strong>
-      <a routerLink="/">Music</a>,
-      <a routerLink="/">Learning</a>
-    </p>
-    <p>
-      <strong>Share:</strong>
-      <a href="https://facebook.com/">Facebook</a>,
-      <a href="https://twitter.com/">Twitter</a>
-    </p>
-    `,
+    description: ``,
   },
   {
     number: '0.1',
@@ -120,108 +19,7 @@ export const episodesList = [
     flyerUrl:
       'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
     link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
-    description: `
-    <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-      Neque porro quia non numquam eius modi tempora incidunt ut labore et
-      dolore magnam dolor sit amet, consectetur adipisicing.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur
-      <strong>adipisicing</strong> elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      <a routerLink="/">commodo</a> consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora incidunt ut
-      labore et dolore magnam aliquam quaerat.
-    </p>
-    <ol>
-      <li>
-        <p>Nunc, mauris ut in vestibulum. Consectetur phasellus ultrices
-        fusce nibh justo, venenatis, amet. Lectus quam in</p>
-      </li>
-      <li>
-        <p>Most of the designer are very creative to do something , mauris ut
-        in vestibulum. Consectetur phasellus ultrices fusce nibh justo,
-        venenatis, amet. Lectus quam in lobortis.</p>
-      </li>
-      <li>
-        <p>There are two thing is very important in Consectetur phasellus
-        ultrices fusce nibh justo, venenatis, amet. Lectus quam.</p>
-      </li>
-      <li>
-        <p>Web design and development very creative to do something, Mauris
-        ut in vestibulum. Consectetur phasellus ultrices fusce nibh
-        venenatis, amet to all design and development.</p>
-      </li>
-    </ol>
-    <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-      Neque porro quia non numquam eius modi tempora incidunt ut labore et
-      dolore magnam dolor sit amet, consectetur adipisicing.
-    </p>
-    <p>
-      <img src="assets/images/blog/blog-2.jpg" alt="image" />
-    </p>
-    <p>
-      <img src="assets/images/blog/blog-3.jpg" alt="image" />
-    </p>
-    <p>
-      <img src="assets/images/blog/blog-4.jpg" alt="image" />
-    </p>
-    <h3>Four major elements that we offer:</h3>
-    <p>
-      Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-      Neque porro quia non numquam eius modi tempora incidunt ut labore et
-      dolore magnam dolor sit amet, consectetur adipisicing.
-    </p>
-    <ul>
-      <li><p>Scientific skills for getting a better result</p></li>
-      <li><p>Communication skills to getting in touch</p></li>
-      <li><p>A career overview opportunity is available</p></li>
-      <li><p>A good work environment for work</p></li>
-    </ul>
-    <h3>Setting the mood with incense</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora incidunt ut
-      labore et dolore magnam aliquam quaerat.
-    </p>
-    <blockquote>
-      <p>
-        It is a long-established fact that a reader will be distracted by
-        the readable content of a page when looking at its layout.
-      </p>
-    </blockquote>
-    <h3>The rise of marketing and why you need it</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur
-      <strong>adipisicing</strong> elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      <a routerLink="/">commodo</a> consequat. Duis aute irure dolor in
-      reprehenderit in sed quia non numquam eius modi tempora incidunt ut
-      labore et dolore magnam aliquam quaerat.
-    </p>
-    <p>
-      <strong>TAGS:</strong>
-      <a routerLink="/">Music</a>,
-      <a routerLink="/">Learning</a>
-    </p>
-    <p>
-      <strong>Share:</strong>
-      <a href="https://facebook.com/">Facebook</a>,
-      <a href="https://twitter.com/">Twitter</a>
-    </p>
-    `,
+    description: ``,
   },
   {
     number: '1',
