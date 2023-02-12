@@ -1,15 +1,15 @@
 export const episodesList = [
-  {
-    number: '0',
-    title: 'Pilot never Went Live Multi-Media and Tech',
-    date: '01-05-2022',
-    subject: 'Test Pilot',
-    artist: 'Cassandra Cooper',
-    flyerUrl:
-      'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
-    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
-    description: ``,
-  },
+  // {
+  //   number: '0',
+  //   title: 'Pilot never Went Live Multi-Media and Tech',
+  //   date: '01-05-2022',
+  //   subject: 'Test Pilot',
+  //   artist: 'Cassandra Cooper',
+  //   flyerUrl:
+  //     'assets/images/v2/Talk_Tech_to_Me_NicolethePole_episode%20copy%202.png',
+  //   link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+  //   description: ``,
+  // },
   {
     number: '0.1',
     title: 'Systems and processes for a successful business',

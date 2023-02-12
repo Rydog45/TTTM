@@ -131,6 +131,12 @@
                         font-size: 15px;
                         line-height: 43px;
                     }
+                    img {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 15px;
+                        line-height: 43px;
+                    }
                 }
             }
         }
@@ -144,7 +150,47 @@
     }
 
 }
+.widget-social {
+    text-align: start;
 
+    li {
+        a {
+            transition: 1s ease-in-out;
+            i {
+                width: 35px;
+                height: 35px;
+                font-size: 15px;
+                line-height: 43px;
+            }
+            img {
+                width: 35px;
+                height: 35px;
+                font-size: 15px;
+                line-height: 43px;
+                background-color: #fff;
+                border-radius: 50%;
+                padding: 6px;
+                transition: 0.1s ease-in-out;
+            }
+        }
+    }
+}
+.copyright-social-icons {
+    li {
+        a:hover {
+            img {
+                width: 35px;
+                height: 35px;
+                font-size: 15px;
+                line-height: 43px;
+                background-color: #25FFD8;
+                border-radius: 50%;
+                padding: 5px;
+                transition: 0.1s ease-in-out;
+            }
+        }
+    }
+}
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {}
 
