@@ -147,10 +147,27 @@
             top: 25px;
             bottom: 25px;
         };
+        .copyright-text {
+            .misla-logo {
+                max-width: 120px;
+            }
+        }
     }
 
 }
-.widget-social {
+.copyright-area {
+    margin-top: 35px;
+    padding: {
+        top: 25px;
+        bottom: 25px;
+    };
+    .copyright-text {
+        .misla-logo {
+            max-width: 120px;
+        }
+    }
+}
+.widget-social, .copyright-social-icons {
     text-align: start;
 
     li {
