@@ -1775,260 +1775,456 @@ export const episodesList = [
       </ul>
     `,
   },
-  // {
-  //   number: '7',
-  //   title: 'Tech Saved Me',
-  //   date: '27-08-2022',
-  //   subject: 'Changing Lives Through Tech',
-  //   artist: 'Andre Anthony',
-  //   flyerUrl: 'assets/images/v2/Andree.png',
-  //   link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
-  //   description: `
-  //     <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
-  //     <p>
-  //     Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
-  //     </p>
-  //     <h1>What’s the Tea in Tech:</h1>
-  //     <ul>
-  //       <li>
-  //         <p>
-  //           <a href="https://afrotech.com/tiktoks-support-black-businesses-program-returns"><u>TikTok’s Support Black Businesses Accelerator Program is Now Open</u></a>
-  //         </p>
-  //         <ul>
-  //           <li>
-  //             <p>TikTok is accepting applications for the third round of their Support Black Businesses accelerator program in honor of #BlackBusinessMonth</p>
-  //           </li>
-  //           <li>
-  //             <p>The program will include 4 weeks of virtual training + exclusive access to resources, benefits, and networking opportunities</p>
-  //           </li>
-  //           <li>
-  //             <p>Black businesses, creators + entrepreneurs apply at <a href="https://tiktoksupportblack.com/">tiktoksupportblack.com</a> by Aug. 24th</p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //       <li>
-  //         <p>
-  //           <a href="https://www.blackenterprise.com/calling-tech-enthusiasts-brooklyn-brothers-open-first-black-residency-hacker-house/"><u>Brooklyn Brother Duo Opens First Black Hacker House</u></a>
-  //         </p>
-  //         <ul>
-  //           <li>
-  //             <p><strong>RHouse</strong>, a conscious engineer, founder, and creative space founded by brothers Rusty and River Fields, unites Black techies who are enthusiastic about founding Web3 start-ups</p>
-  //           </li>
-  //           <li>
-  //             <p>With their own hacker house, the pair hopes to solve the racial divide and lack of diversity that occur in urban tech hotspots like San Francisco</p>
-  //           </li>
-  //           <li>
-  //             <p>RHouse started its first four-week residency program this summer in a Brooklyn brownstone in Bed-Stuy. 13 builders, artists, and designers had the chance to participate in workshops, panel discussions, fireside chats, meet-ups, tours, and networking events between July 11 and August 5. The fall cohort opens soon.</p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //       <li>
-  //         <p>
-  //           <a href="https://afrotech.com/p-valley-star-j-alphonse-nicholso-cannabis?item=2"><u>Ball Family Farms (BFF) Drops New Anxiety Reducing Strain w/ P-Valley Star</u></a>
-  //         </p>
-  //         <ul>
-  //           <li>
-  //             <p>Cannabis tech \</p>
-  //           </li>
-  //           <li>
-  //             <p>Actor J. Alphonse Nicholson, who plays Lil’ Murda in "P-Valley," credits cannabis with his ability to focus on his craft</p>
-  //           </li>
-  //           <li>
-  //             <p>He’s been open about battling anxiety his entire life, but BFF products have helped him. In an effort to promote calmness and relaxation, J. Alphonse partnered with Ball Family Farms to develop the strain "The Phonzie."</p>
-  //           </li>
-  //           <li>
-  //             <p>The terpene-rich strain is said to have a skittles and cream flavor with a fruit basket aroma. It’ll be available at California retailers soon.</p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //       <li>
-  //         <p>
-  //           <a href="https://www.blackenterprise.com/chevy-partners-with-black-designers-aurora-james-and-justin-salmon-to-bring-its-first-ever-all-electric-suv-to-life/"><u>Chevy Collabs with Black Designers to Create its First Electric SUV</u></a>
-  //         </p>
-  //         <ul>
-  //           <li>
-  //             <p>Chevy will unveil its first-ever all-electric Blazer EV in collaboration with fashion designer Aurora James, the creator of the eco-friendly brand Brother Vellies, and Justin Salmon, a creative designer for GM.</p>
-  //           </li>
-  //           <li>
-  //             <p>This mid-size SUV is stylish, functional, and technologically complete with a futuristic design that comes in several trim levels, hues, and battery power levels.</p>
-  //           </li>
-  //           <li>
-  //             <p>
-  //             The 2024 Blazer EV will go on sale in the summer of 2023.
-  //             </p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //     </ul>
-  //     <p>When we come forward on Talk Tech To Me… “The Family That Codes Together, Gets Dough Together” with special guests Phillip & Keila Banks on the Unapologetically Progressive KBLA Talk 1580</p>
-  //     <ul>
-  //       <li>
-  //         <p>Soft out with a commercial break: 3 minutes</p>
-  //       </li>
-  //       <li>
-  //         <p>He won’t go to break until she is ready</p>
-  //       </li>
-  //     </ul>
-  //     <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
-  //     <ul>
-  //       <li>
-  //         <p>Welcome forward <strong>1 800-920-1580</strong>. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580”.</p>
-  //       </li>
-  //       <li>
-  //         <p>
-  //           <b>Introduce guest:</b> Phillip Banks Sr., also known as Big Cyber, is the CEO and co-founder of Banks Family Tech, together with his daughter Keila and sons Phillip Jr., David, and Hunter. The Banks family has a passion for tech, business, and the arts. They have redefined what Black parenting and Black families could look like through tech, entrepreneurship, and speaking at the largest conferences in the world.
-  //         </p>
-  //       </li>
-  //       <li>
-  //         <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
-  //       </li>
-  //       <li>
-  //         <p>Background: started coding at 10 years old, IT consultant + instructor</p>
-  //       </li>
-  //       <li>
-  //         <p>Discuss Phillip’s nontraditional journey into tech</p>
-  //       </li>
-  //       <li>
-  //         <p>Explain Banks Family Tech’s mission</p>
-  //       </li>
-  //       <li>
-  //         <p>Phillip is an open-source software evangelist</p>
-  //         <ul>
-  //           <li>
-  //             <p>Explain how you leverage open-source software and which ones you recommend for beginners.</p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //       <li>
-  //         <p>How did you get your kids involved in tech? (is he giving Joe Jackson vibes? Lol)</p>
-  //       </li>
-  //       <li>
-  //         <p>Discuss importance of public speaking</p>
-  //       </li>
-  //       <li>
-  //         <p>Discuss journey into entrepreneurship</p>
-  //       </li>
-  //       <li>
-  //         <p>Tips on running a business w/ family?</p>
-  //       </li>
-  //       <li>
-  //         <p>How do we get tech-averse kids interested in tech?</p>
-  //       </li>
-  //       <li>
-  //         <p>How can we best support our youth in this space?</p>
-  //       </li>
-  //       <li>
-  //         <p>The importance of attending conferences</p>
-  //         <ul>
-  //           <li>
-  //             <p>Must attend events</p>
-  //           </li>
-  //           <li>
-  //             <p>Tips on making connections/building relationships</p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //       <li>
-  //         <p>Have you experienced any challenges as a Black family in Tech? If so how did you overcome them?</p>
-  //       </li>
-  //       <li>
-  //         <p>Favorite project?</p>
-  //       </li>
-  //       <li>
-  //         <p>Proudest moment?</p>
-  //       </li>
-  //       <li>
-  //         <p>Fun Facts:</p>
-  //         <ul>
-  //           <li>
-  //             <p>Phillip knows how to build computers from scratch</p>
-  //           </li>
-  //           <li>
-  //             <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
-  //           </li>
-  //           <li>
-  //             <p><em>News and traffic break - 3 minutes</em></p>
-  //           </li>
-  //           <li>
-  //             <p><em>Commercial break - 3 minutes</em></p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //     </ul>
-  //     <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
-  //     <p>Fun Facts (Keila): Read as an intro to the next segment</p>
-  //     <p>Script: Welcome forward 1 800-920-1580. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580.” I want to introduce our next guest. Keila Banks</p>
-  //     <ul>
-  //       <li><p>Keila started blogging at 6 years old</p></li>
-  //       <li><p>Learned HTML at 9 years old</p></li>
-  //       <li><p>First keynote was at SCALE (Southern California Linux Expo) at 11 years old</p></li>
-  //       <li><p>Presented at the White House at 14 years old (during Obama Administration)</p></li>
-  //       <li>
-  //         <p>Received full ride scholarship to Howard University</p>
-  //         <ul>
-  //           <li><p>What is your origin story?</p></li>
-  //           <li><p>What are you majoring in at Howard?</p></li>
-  //           <li><p>Once you graduate from school, do you plan to keep working to build the Banks Family Empire, or do you want to strike out on your own?</p></li>
-  //           <li><p><em>Commercial break - 3 minutes</em></p></li>
-  //         </ul>
-  //       </li>
-  //     </ul>
-  //     <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
-  //     <ul>
-  //       <li>
-  //         <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
-  //         <ul>
-  //           <li>
-  //             <p><em>Commercial break - 3 minutes</em></p>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //     </ul>
-  //     <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
-  //     <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
-  //     <ul>
-  //       <li>
-  //         <p>Direct listeners to connect with Phillip, Keila, and Cassie on social media, company/personal websites, and at any upcoming events</p>
-  //         <ul>
-  //           <li>
-  //             <p>Phillip & Keila, how can the people connect w/ you? Drop SM!</p>
-  //           </li>
-  //           <li>
-  //             <p>Follow @talktechtomepod on IG</p>
-  //           </li>
-  //           <li>
-  //             <p>Follow me @instabetts</p>
-  //           </li>
-  //           <li>
-  //             <p>To learn more about MISLA/MARTY go to misla.org</p>
-  //             <ul>
-  //               <li>
-  //                 <p>Tease details for the next show:  Be sure to tune in to next week’s episode “Tech Saved Me,” featuring Andre Anthony.</p>
-  //               </li>
-  //             </ul>
-  //           </li>
-  //         </ul>
-  //       </li>
-  //       <li>
-  //         <p>
-  //           Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. You’ll listen to The Back Story with Mischa Duffy when we come forward. The backstory of films, songs, books…
-  //         </p>
-  //       </li>
-  //       <li>
-  //         <p>
-  //           TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time. Peace out!
-  //         </p>
-  //       </li>
-  //     </ul>
-  //     <p>Tag Lines: Say as much as possible. </p>
-  //     <ul>
-  //       <li>
-  //         <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
-  //       </li>
-  //       <li>
-  //         <p>Unapologetically Progressive KBLA Talk 1580.</p>
-  //       </li>
-  //     </ul>
-  //   `,
-  // }
+  {
+    number: '7',
+    title: 'Tech Saved Me',
+    date: '27-08-2022',
+    subject: 'Changing Lives Through Tech',
+    artist: 'Andre Anthony',
+    flyerUrl: 'assets/images/v2/Andree.png',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+      Show intro: Welcome forward, I am your host Cassie Betts on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where Technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <p>Talk about interesting life updates before Tea in Tech</p>
+      <h1>What’s the Tea in Tech:</h1>
+      <ul>
+        <li>
+          <p>
+            <a href="https://www.xxlmag.com/capitol-records-drops-virtual-ai-rapper-fn-meka/"><u>Virtual AI rapper ‘FN Meka’ gets dropped from Capitol Records</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Controversial bot rapper FN Meka gets dropped by Capitol Records just days after it was announced the “rapper” signed an unprecedented record deal</p>
+            </li>
+            <li>
+              <p>The label received severe public backlash and strong pushback from Industry Blackout, a collective of Black industry professionals who penned an open letter on Twitter demanding Capitol Records terminate its partnership with the virtual artist</p>
+            </li>
+            <li>
+              <p>Because of FN Meka's use of the "N-word" in its rap lyrics and promotion of racial stereotypes on social media, the v c AI rapper’s two creators, both nonblack—Anthony Martini and Brandon Le—suffered blowback</p>
+            </li>
+            <li>
+              <p>A rep for Capitol Records issued a statement to XXL on Tues. (Aug. 23) confirming its decision to sever ties with the FN Meka project and offering its apologies to the Black community</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://techcrunch.com/2022/08/17/black-girls-code-founder-kimberly-bryant-has-been-fired-by-her-board/"><u>Black Girls Code CEO gets ousted by her own board and things get messy</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Kimberly Bryant, founder, and former CEO and board member of <strong>Black Girls Code</strong> is officially fired after an 8-month indefinite suspension by her board of directors</p>
+            </li>
+            <li>
+              <p>Bryant was suspended in Dec. 2021 following accusations of creating a toxic workplace, misgendering employees, and having a fearful leadership style by BGC staff</p>
+            </li>
+            <li>
+              <p>Bryant filed a federal lawsuit on August 11 alleging wrongful suspension and conflict of interest by board member Heather Hiles. Bryant claims Hiles has “gone rogue” and wants to aultimately control BGC’s nearly $40M in donated philanthropic funds</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://www.blackenterprise.com/dr-bernice-king-ashley-bell-set-to-launch-ready-life-homeownership-platform-excluding-credit-scores/"><u>Dr. Bernice King disrupts the mortgage loan industry with a new FinTech platform</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>The youngest daughter of Dr. Martin Luther King Jr., Bernice King, and Ashley Bell are revolutionizing the mortgage lending market with their FinTech platform, <strong>Ready Life,</strong> which provides a route to homeownership that doesn't include credit scores when determining eligibility</p>
+            </li>
+            <li>
+              <p>Ready Life will use blockchain technology to assist families wanting to buy their first home. The program will also educate users on how to become homeowners</p>
+            </li>
+            <li>
+              <p>King and Bell believe that Ready Life can improve the home-buying experience for Black people and other people of color by putting them on a road to doing so earlier in life and generating wealth for them</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://afrotech.com/overtime-series-d-funding-round"><u>Drake-backed sports league raises $100M in Series D funding</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>The Drake and Jeff Bezos-backed sports league startup Overtime raises $100M in its Series D funding round</p>
+            </li>
+            <li>
+              <p>The league wants to grow its high school football and OTE basketball leagues, add other sports leagues, and get involved in web3 and e-commerce. It also intends to create short and long-form digital sports content</p>
+            </li>
+            <li>
+              <p>
+              In total, funding for Overtime has surpassed $250 million. Along with Bezos and Drake, other investors include Alexis Ohanian, Carmelo Anthony, Trae Young, Quavo, Kevin Durant & Rich Kleiman's Thirty-Five Ventures
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>When we come forward on Talk Tech To Me… “Tech Saved Me” with Andre Anthony on the Unapologetically Progressive KBLA Talk 1580</p>
+      <ul>
+        <li>
+          <p>Soft out with a commercial break: 3 minutes</p>
+        </li>
+        <li>
+          <p>He won’t go to break until she is ready</p>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward 1 800-920-1580. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580.”</p>
+        </li>
+        <li>
+          <p>
+            <b>Introduce guest:</b> Andre Anthony is a Deep East Oakland-bred former at-risk teen turned techie with a big heart. With the odds stacked against him at such a young age, he took charge of his story because he was determined to avoid the fates of his peers. Andre has since crafted a rewarding profession as a Territory Relationship Manager at Best Buy, as well as found meaning in mentoring children who have faced similar challenges as he has.
+          </p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Origin Story: Talk about crazy story growing up in Oakland + challenges faced</p>
+        </li>
+        <li>
+          <p>What was the turning point that changed your life trajectory?</p>
+        </li>
+        <li>
+          <p>Explain nontraditional path into tech</p>
+        </li>
+        <li>
+          <p>What does a Territory Relationship Manager do?</p>
+        </li>
+        <li>
+          <p>How did tech save your life and how can it benefit others like you?</p>
+        </li>
+        <li>
+          <p>In what ways do you think tech can impact the community?</p>
+        </li>
+        <li>
+          <p>What career opportunities are available?</p>
+        </li>
+        <li>
+          <p>How lucrative are the careers?</p>
+        </li>
+        <li>
+          <p>Who is your biggest inspiration?</p>
+        </li>
+        <li>
+          <p>How has your experience been with Best Buy?</p>
+        </li>
+        <li>
+          <p>What is your “why” for giving back to the community and mentoring kids?</p>
+        </li>
+        <li>
+          <p><strong>Talk about you and Andre’s shared connection:</strong> crazy life story, nontraditional path into tech, Best Buy Teen Tech Center & MISLA partnership, and role in bringing South LA BBTTC into fruition</p>
+        </li>
+        <li>
+          <p>Fun Facts:</p>
+          <ul>
+            <li>
+              <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
+            </li>
+            <li>
+              <p><em>News and traffic break - 3 minutes</em></p>
+            </li>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <p>Now it’s time to play a round of <strong>“Fill in the Blank”</strong> with Andre Anthony</p>
+      <ul>
+        <li><p>"I should have never ______."</p></li>
+        <li><p>"I can't live without _____."</p></li>
+        <li><p>"_______ annoys me."</p></li>
+        <li><p>"I always have ______ with me."</p></li>
+        <li><p>"I miss _____."</p></li>
+        <li><p>"When I'm bored I ______."</p></li>
+        <li><p>"I'm the happiest when _______."</p></li>
+        <li><p>"I want to travel to ______."</p></li>
+        <li><p>Commercial break - 3 minutes</p></li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Direct listeners to connect with Andre and Cassie on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>Andre, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+              <ul>
+                <li>
+                  <p>Tease details for the next show:  Be sure to tune in to next week’s episode featuring branding, marketing, and content expert Miesha Robinson.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. Up next is The Back Story with Mischa Duffy when we come forward. (The backstory of films, songs, books, etc.)
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time. Peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible.</p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+        </li>
+      </ul>
+    `,
+  },
+  {
+    number: '8',
+    title: 'Social Proof',
+    date: '03-09-2022',
+    subject: 'The Power of Social Media ',
+    artist: 'Miesha Robinson',
+    flyerUrl: 'assets/images/v2/Meisha_Robinson.png',
+    link: 'assets/audio/Episode0.1-Tech Pilot2-ReneeMoncito.mp3',
+    description: `
+      <h1><u>Segment 1:</u> 12:03:00 pm - 12:10:35 pm</h1>
+      <p>
+      Show intro: Welcome forward, I am your host, Cassie Betts, on KBLA Talk 1580, and you’re listening to Talk Tech To Me, where technology is the new sexy, Black Geeks are the new superheroes, and South Central LA is the new Tech Mecca.
+      </p>
+      <p>Talk about interesting life updates before “Tea in Tech”</p>
+      <h1>What’s the Tea in Tech:</h1>
+      <ul>
+        <li>
+          <p>
+            <a href="https://www.theverge.com/2022/8/30/23328499/elon-musk-twitter-deal-termination-letter-whistleblower-testimony-mudge-zatko"><u>“Messy Musky” turns to “Twitter whistleblower” in a quest to ditch Twitter deal</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Elon Musk, better known on the show as "Messy Musky," has been at odds with Twitter since he pulled out of the $44 billion deal to acquire the site and was sued to hold him to it.</p>
+            </li>
+            <li>
+              <p>A new "Termination Letter" was submitted by Musk's attorneys to the SEC, and they are now attempting a different strategy: Mention Peiter "Mudge" Zatko, a Twitter whistleblower.</p>
+            </li>
+            <li>
+              <p>Former Twitter security head Zatko alleged that the social media company had misled the SEC, among other things.</p>
+            </li>
+            <li>
+              <p>If Zatko's claims are accurate, it would constitute a breach of contract and Musk's agreement might be terminated.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://afrotech.com/fn-meka-kyle-the-hooligan-lawsuit-factory-new"><u>Factory New gets slammed with a lawsuit by ghost performer of canceled FN Meka</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Rapper Kyle the Hooligan, the voice behind the scandalous “AI rapper” FN Meka gears up for a lawsuit against its creators after being left high & dry.</p>
+            </li>
+            <li>
+              <p>In an IG video, the artist claims that he agreed to voice the character but was ghosted after his likeness, sound, voice, and “the culture” was exploited. He went on to state he was promised equity, percentages, and other benefits but hasn’t received a dime.</p>
+            </li>
+            <li>
+              <p>According to TMZ, Kyle the Hooligan and his legal team have started the process to recoup damages from Brandon Le & Factory New.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://futureparty.com/stories/california-end-sales-new-gas-cars-2035/"><u>California is coming for our gas-powered cars</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>California has a lofty goal of banning the sale of all combustion-engine passenger vehicles by 2035  in the name of reducing its level of greenhouse gas emissions.</p>
+            </li>
+            <li>
+              <p>Before the ultimate ban, 35% of newly sold vehicles must utilize renewable energy by 2026, and 68% by 2030. Currently, EVs account for 16% of new car sales in the state.</p>
+            </li>
+            <li>
+              <p>Every extra gas-powered car sold by automakers that don't meet the production goal might result in a fine of up to $20,000.</p>
+            </li>
+            <li>
+              <p>If the goals turn out to be unattainable, the state may amend the law. Once the bill passes, Governor Gavin Newsom is expected to sign it into law.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <a href="https://openai.com/dall-e-2/"><u>Open AI launches a new AI system that can turn your words into beautiful art</u></a>
+          </p>
+          <ul>
+            <li>
+              <p>Open AI is changing the game with their new AI art tool DALL-E 2, that is trained to generate realistic and detailed images from text descriptions with 4x greater resolution.</p>
+            </li>
+            <li>
+              <p>DALL-E 2 can edit & retouch photos, add and remove elements, create different variations of an image inspired by the original, and a whole lot more.</p>
+            </li>
+            <li>
+              <p>
+              Dall-E 2 is now available in beta to those who join the waitlist.
+              <span>-- discuss Kermit the frog art on tttm pod IG</span>
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>When we come forward on Talk Tech To Me… “Social Proof” with Miesha Robinson on the Unapologetically Progressive KBLA Talk 1580</p>
+      <ul>
+        <li>
+          <p>Soft out with a commercial break: 3 minutes</p>
+        </li>
+        <li>
+          <p>He won’t go to break until she is ready</p>
+        </li>
+      </ul>
+      <h1><u>Segment 2:</u> 12:13:35 pm - 12:30:00 pm</h1>
+      <ul>
+        <li>
+          <p>Welcome forward 1 800-920-1580. You’re listening to Talk Tech To Me with your host, Cassie Betts on “Unapologetically Progressive KBLA Talk 1580.”</p>
+        </li>
+        <li>
+          <p>
+            <b>Introduce guest:</b> Miesha Robinson is an ambitious serial entrepreneur, visionary, and coach committed to building generational wealth through entrepreneurship. She founded the non-profit organization Level Up LA, the online clothes retailer Twenty21 & Co., the digital ticketing startup Ucrowd, and Miesha Robinson Consulting, a comprehensive marketing agency and coaching firm. Miesha is a founding member of Black Women In Tech Inc., holds a bachelor's degree in marketing, and currently serves as the Chief Marketing Officer at MARTY.
+          </p>
+        </li>
+        <li>
+          <p><em>TTTM Icebreaker:</em> When did you fall in love with Tech?</p>
+        </li>
+        <li>
+          <p>Origin Story: What’s your background?  How did you go from working in a retail position you despised to becoming a serial entrepreneur and CMO?</p>
+        </li>
+        <li>
+          <p>Reason for starting Ucrowd & Twenty21 & Co.</p>
+        </li>
+        <li>
+          <p>What are some obstacles you’ve faced as a Black female CEO in the tech space?</p>
+        </li>
+        <li>
+          <p>Discuss earning potential for those wanting to pursue marketing as a career path</p>
+        </li>
+        <li>
+          <p>Discuss inspiration, how she stays motivated, and found her purpose</p>
+        </li>
+        <li>
+          <p>Discuss worklife balance</p>
+        </li>
+        <li>
+          <p>Favorite social media tools + Hacks</p>
+        </li>
+        <li>
+          <p>Why is it important to have a social media/content strategy?</p>
+        </li>
+        <li>
+          <p>What are some social media tips for business owners, corporate baddies, and aspiring influencers?</p>
+        </li>
+        <li>
+          <p>What would you say to those who don’t know what content to post and how often?</p>
+        </li>
+        <li>
+          <p>Fun Facts:</p>
+          <ul>
+            <li>
+              <p><em>Hard Out at the 30 (bottom of the hour) with a 6-minute break</em></p>
+            </li>
+            <li>
+              <p><em>News and traffic break - 3 minutes</em></p>
+            </li>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 3:</u> 12:36:00 pm - 12:45:45 pm</h1>
+      <ul>
+        <li><p>Discuss how you and Miesha met and how she became CMO of MARTY</p></li>
+        <li><p>Discuss the LevelUp LA</p></li>
+        <li><p>What’s in store for the future?</p></li>
+        <li><p>Commercial break - 3 minutes</p></li>
+      </ul>
+      <h1><u>Segment 4:</u> 12:48:45 pm - 12:53:00 pm</h1>
+      <ul>
+        <li>
+          <p>Use this time to answer calls. If no calls, continue convo or ask 1-2 questions that were not asked previously</p>
+          <ul>
+            <li>
+              <p><em>Commercial break - 3 minutes</em></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1><u>Segment 5:</u> 12:56:00 pm - 1:00:00 pm</h1>
+      <p>Use this to wrap up any last points, call to action, opportunities, etc.</p>
+      <ul>
+        <li>
+          <p>Direct listeners to connect with Miesha and Cassie on social media, company/personal websites, and at any upcoming events</p>
+          <ul>
+            <li>
+              <p>Miesha, how can the people connect w/ you? Drop SM!</p>
+            </li>
+            <li>
+              <p>Follow @talktechtomepod on IG</p>
+            </li>
+            <li>
+              <p>Follow me @instabetts</p>
+            </li>
+            <li>
+              <p>To learn more about MISLA/MARTY go to misla.org</p>
+              <ul>
+                <li>
+                  <p>Tease details for the next show:  Be sure to tune in to next week’s episode about Cannabis + Tech featuring Dee Williams</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Thank you for hanging with us at the Unapologetically Progressive KBLA Talk 1580. Up next is The Back Story with Mischa Duffy when we come forward. (The backstory of films, songs, books, etc.)
+          </p>
+        </li>
+        <li>
+          <p>
+            TTTM Closing: This has been Talk Tech To Me, pushing the envelope of tech one keystroke at a time. Peace out!
+          </p>
+        </li>
+      </ul>
+      <p>Tag Lines: Say as much as possible.</p>
+      <ul>
+        <li>
+          <p>KBLA Talk 1580, we’ve got a lot to talk about.</p>
+        </li>
+        <li>
+          <p>Unapologetically Progressive KBLA Talk 1580.</p>
+        </li>
+      </ul>
+    `,
+  }
 ];
