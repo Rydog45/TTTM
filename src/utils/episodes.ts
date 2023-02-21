@@ -49,7 +49,7 @@ export const episodesList = [
       <ul>
         <li>
           <p>
-            <a href="https://youtu.be/TDDFLxZ_xDA" target="_blank">Chris Breezy Takes His Talents to the Metaverse</a>:  Award-winning R&B and hip hop cultural icon
+            <a href="https://youtu.be/TDDFLxZ_xDA" target="_blank" ref="noopener noreferrer">Chris Breezy Takes His Talents to the Metaverse</a>:  Award-winning R&B and hip hop cultural icon
               Chris Brown is ready to play in the metaverse. The “Warm Embrace” singer
               dropped his first official NFT collection THE BREEZY VERSE in late June.
           </p>
@@ -60,13 +60,13 @@ export const episodesList = [
             <li>
               <p>Investors and fans will get access to exclusive utilities including VIP concert tickets,
               meet & greets, video calls, personal wardrobe, and 1 of 1
-              original art on canvas by Chris. Learn more at <a href="https://www.thebreezyverse.com/" target="_blank">thebreezyverse.com</a></p>
+              original art on canvas by Chris. Learn more at <a href="https://www.thebreezyverse.com/" target="_blank" ref="noopener noreferrer">thebreezyverse.com</a></p>
             </li>
           </ul>
         </li>
         <li>
           <p>
-            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Move Over Apple and Samsung, Nothing is Here</a>: Nothing, the London-based startup
+            <a href="https://us.nothing.tech/pages/phone-1" target="_blank" ref="noopener noreferrer">Move Over Apple and Samsung, Nothing is Here</a>: Nothing, the London-based startup
             dubbed  “The most hyped tech company in years,” by
             GQ, has a lot to prove with the release of their Nothing Phone (1).
           </p>
@@ -88,7 +88,7 @@ export const episodesList = [
         </li>
         <li>
           <p>
-            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Sunday, July 17th is World Emoji Day:</a> Emojis have
+            <a href="https://us.nothing.tech/pages/phone-1" target="_blank" ref="noopener noreferrer">Sunday, July 17th is World Emoji Day:</a> Emojis have
             changed the text game forever so it’s only right we celebrate them
           </p>
           <ul>
@@ -319,7 +319,7 @@ export const episodesList = [
       <ul>
         <li>
           <p>
-            <a href="https://afrotech.com/limewire-reunites-with-soulja-boy-to-relaunch-nft-marketplace-after-once-revealing-the-company-played-a-part-in-his-success" target="_blank">LimeWire is Back, But Not How You Think…</a>
+            <a href="https://afrotech.com/limewire-reunites-with-soulja-boy-to-relaunch-nft-marketplace-after-once-revealing-the-company-played-a-part-in-his-success" target="_blank" ref="noopener noreferrer">LimeWire is Back, But Not How You Think…</a>
           </p>
           <ul>
             <li>
@@ -338,7 +338,7 @@ export const episodesList = [
         </li>
         <li>
           <p>
-            <a href="https://afrotech.com/kanye-west-donda-foam-vehicle-steven-smith?item=1" target="_blank">Kanye West Teases DONDA Foam Vehicle and Possible Tesla Collab</a>
+            <a href="https://afrotech.com/kanye-west-donda-foam-vehicle-steven-smith?item=1" target="_blank" ref="noopener noreferrer">Kanye West Teases DONDA Foam Vehicle and Possible Tesla Collab</a>
           </p>
           <ul>
             <li>
@@ -361,7 +361,7 @@ export const episodesList = [
         </li>
         <li>
           <p>
-            <a href="https://us.nothing.tech/pages/phone-1" target="_blank">Snapchat and Steph Curry Level Up This Summer</a>
+            <a href="https://us.nothing.tech/pages/phone-1" target="_blank" ref="noopener noreferrer">Snapchat and Steph Curry Level Up This Summer</a>
           </p>
           <ul>
             <li>
@@ -379,7 +379,7 @@ export const episodesList = [
         </li>
         <li>
           <p>
-            <a href="https://fortune.com/2022/06/22/gen-z-dismisses-remote-work-sick-of-zoom/#:~:text=For%20the%20youngest%20employees%2C%20working,Scholars%27%202022%20Career%20Interest%20Survey." target="_blank">Gen Z is OVER Working from Home</a>
+            <a href="https://fortune.com/2022/06/22/gen-z-dismisses-remote-work-sick-of-zoom/#:~:text=For%20the%20youngest%20employees%2C%20working,Scholars%27%202022%20Career%20Interest%20Survey." target="_blank" ref="noopener noreferrer">Gen Z is OVER Working from Home</a>
           </p>
           <ul>
             <li>

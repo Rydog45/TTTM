@@ -8,7 +8,7 @@ import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { LightgalleryModule } from 'lightgallery/angular';
 import { AccordionModule } from "ngx-accordion";
-
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeDemoOneComponent } from './components/pages/home-demo-one/home-demo-one.component';
@@ -121,7 +121,9 @@ import { SingleVideoEpisodePageComponent } from './components/pages/single-video
         NgxScrollTopModule,
 		NgxAudioPlayerModule,
 		LightgalleryModule,
-		AccordionModule
+		AccordionModule,
+		NgxGoogleAnalyticsModule.forRoot('G-YEKH2DL0XH'),
+		NgxGoogleAnalyticsRouterModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
